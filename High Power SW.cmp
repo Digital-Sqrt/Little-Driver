@@ -1,0 +1,147 @@
+Cmp-Mod V01 Created by PcbNew   date = 12/3/2016 6:28:29 PM
+
+BeginCmp
+TimeStamp = 581EA37E
+Path = /58423900
+Reference = Q1;
+ValeurCmp = FDD9407_F085;
+IdModule  = MyLib:TO-263-2Lead_(Larg_Heat_Sink);
+EndCmp
+
+BeginCmp
+TimeStamp = 582E8E56
+Path = 
+Reference = [NoRef];
+ValeurCmp = LOGO;
+IdModule  = MyLib:LOGO_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = 582E5E55
+Path = /58427F19
+Reference = R5;
+ValeurCmp = 1.8K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 581EA36E
+Path = /58101F36
+Reference = POWER-;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 581EA344
+Path = /5810117A
+Reference = POWER+;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 582270F6
+Path = 
+Reference = [NoRef];
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 580BE1FF
+Path = 
+Reference = [NoRef];
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 581EA384
+Path = /581EA32B
+Reference = R1;
+ValeurCmp = 604;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 581EA38A
+Path = /58423706
+Reference = R2;
+ValeurCmp = 1.8K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 581EA396
+Path = /580AE048
+Reference = R4;
+ValeurCmp = 1.69K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 582B442D
+Path = 
+Reference = F1 ;
+ValeurCmp = Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
+IdModule  = Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
+EndCmp
+
+BeginCmp
+TimeStamp = 582B4464
+Path = 
+Reference = F2 ;
+ValeurCmp = Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
+IdModule  = Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
+EndCmp
+
+BeginCmp
+TimeStamp = 581EA3A3
+Path = /581E947F
+Reference = U1;
+ValeurCmp = PS2801C-1-A;
+IdModule  = MyLib:SOP-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 582E5E11
+Path = /582E54FD
+Reference = D3;
+ValeurCmp = Led_Small;
+IdModule  = MyLib:CREE_LED_CLM3C-AKW-CUBVA353;
+EndCmp
+
+BeginCmp
+TimeStamp = 5842571F
+Path = /58101EEA
+Reference = BED+;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 58425729
+Path = /58101F36
+Reference = BED-;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5842573B
+Path = /582FB0BD
+Reference = CN1;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = MyLib:6pin_SMT_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = 58425769
+Path = /5817E52A
+Reference = R3;
+ValeurCmp = 300;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+EndListe

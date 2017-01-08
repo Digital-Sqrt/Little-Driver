@@ -1,0 +1,468 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:High Power SW-cache
+EELAYER 25 0
+EELAYER END
+$Descr User 6000 6000
+encoding utf-8
+Sheet 1 1
+Title "Little Driver Board"
+Date "2016-11-26"
+Rev "1.5"
+Comp "Digital Sqrt"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R4
+U 1 1 580AE048
+P 1850 2500
+F 0 "R4" V 1930 2500 50  0000 C CNN
+F 1 "1.69K" V 1775 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 1780 2500 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 1850 2500 50  0001 C CNN
+F 4 "RC1206FR-071K69L" H 1850 2500 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Yageo" H 1850 2500 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 1850 2500 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 1850 2500 60  0001 C CNN "Supplyer_Link"
+F 8 "311-1.69KFRCT-ND" H 1850 2500 60  0001 C CNN "Supplyer_Part_No"
+F 9 "311-1.69KFRTR-ND" H 1850 2500 60  0001 C CNN "Reel_Part_No"
+F 10 "5000" H 1850 2500 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".1" H 1850 2500 60  0001 C CNN "Cost"
+	1    1850 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L +BATT #PWR01
+U 1 1 580AECD6
+P 4525 2250
+F 0 "#PWR01" H 4525 2100 50  0001 C CNN
+F 1 "+BATT" H 4525 2390 50  0000 C CNN
+F 2 "" H 4525 2250 50  0000 C CNN
+F 3 "" H 4525 2250 50  0000 C CNN
+	1    4525 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 POWER+
+U 1 1 5810117A
+P 4800 2400
+F 0 "POWER+" H 4875 2400 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2400 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2400 50  0001 C CNN
+F 4 "8197" H 4800 2400 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Keystone Electronics" H 4800 2400 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2400 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2400 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
+F 9 "Part is not Reeled" H 4800 2400 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2400 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".59" H 4800 2400 60  0001 C CNN "Cost"
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 POWER-
+U 1 1 58101E9B
+P 4800 2500
+F 0 "POWER-" H 4875 2500 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2500 50  0001 C CNN
+F 4 "8197" H 4800 2500 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2500 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
+F 9 ".59" H 4800 2500 60  0001 C CNN "Cost"
+	1    4800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 BED+
+U 1 1 58101EEA
+P 4800 2600
+F 0 "BED+" H 4875 2600 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2600 50  0001 C CNN
+F 4 "8197" H 4800 2600 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Keystone Electronics" H 4800 2600 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2600 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2600 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2600 60  0001 C CNN "Supplyer_Part_No"
+F 9 ".59" H 4800 2600 60  0001 C CNN "Cost"
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 BED-
+U 1 1 58101F36
+P 4800 2700
+F 0 "BED-" H 4875 2700 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2700 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2700 50  0001 C CNN
+F 4 "8197" H 4800 2700 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Keystone Electronics" H 4800 2700 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2700 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2700 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2700 60  0001 C CNN "Supplyer_Part_No"
+F 9 ".59" H 4800 2700 60  0001 C CNN "Cost"
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5817E52A
+P 1225 2500
+F 0 "R3" V 1305 2500 50  0000 C CNN
+F 1 "300" V 1150 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 1155 2500 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 1225 2500 50  0001 C CNN
+F 4 "RC1206JR-07300RL" H 1225 2500 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Yageo" H 1225 2500 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 1225 2500 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206JR-07300RL/311-300ERCT-ND/732222" H 1225 2500 60  0001 C CNN "Supplyer_Link"
+F 8 "311-300ERCT-ND" H 1225 2500 60  0001 C CNN "Supplyer_Part_No"
+F 9 "311-300ERTR-ND" H 1225 2500 60  0001 C CNN "Reel_Part_No"
+F 10 "5000" H 1225 2500 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".1" H 1225 2500 60  0001 C CNN "Cost"
+	1    1225 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L LTV-356T U1
+U 1 1 581E947F
+P 2775 2400
+F 0 "U1" H 2600 2175 50  0000 L CNN
+F 1 "PS2801C-1-A" H 2425 2600 50  0000 L CNN
+F 2 "MyLib:SOP-4" H 2575 2200 50  0001 L CIN
+F 3 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 2775 2400 50  0001 L CNN
+F 4 "PS2801C-1-A" H 2775 2400 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "CEL" H 2775 2400 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 2775 2400 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 2775 2400 60  0001 C CNN "Supplyer_Link"
+F 8 "PS2801C-1-A-ND" H 2775 2400 60  0001 C CNN "Supplyer_Part_No"
+F 9 "PS2801C-1-F3-ATR-ND" H 2775 2400 60  0001 C CNN "Reel_Part_No"
+F 10 "3500" H 2775 2400 60  0001 C CNN "Parts_Per_Reel"
+	1    2775 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR02
+U 1 1 581EA16D
+P 3100 2050
+F 0 "#PWR02" H 3100 1900 50  0001 C CNN
+F 1 "+BATT" H 3100 2190 50  0000 C CNN
+F 2 "" H 3100 2050 50  0000 C CNN
+F 3 "" H 3100 2050 50  0000 C CNN
+	1    3100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 581EA32B
+P 3100 2725
+F 0 "R1" V 3180 2725 50  0000 C CNN
+F 1 "604" V 3000 2725 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3030 2725 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3100 2725 50  0001 C CNN
+F 4 "RC1206FR-07604RL" H 3100 2725 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Yageo" H 3100 2725 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3100 2725 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664" H 3100 2725 60  0001 C CNN "Supplyer_Link"
+F 8 "311-604FRCT-ND" H 3100 2725 60  0001 C CNN "Supplyer_Part_No"
+F 9 "311-604FRTR-ND" H 3100 2725 60  0001 C CNN "Reel_Part_No"
+F 10 "5000" H 3100 2725 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".1" H 3100 2725 60  0001 C CNN "Cost"
+	1    3100 2725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2400 4525 2400
+Wire Wire Line
+	4525 2250 4525 2600
+Wire Wire Line
+	1025 2400 1025 2500
+Wire Wire Line
+	1025 2500 1075 2500
+$Comp
+L Led_Small D3
+U 1 1 582E54FD
+P 3700 2600
+F 0 "D3" H 3650 2725 50  0000 L CNN
+F 1 "Led_Small" H 3525 2500 50  0001 L CNN
+F 2 "MyLib:CREE_CLM1B_AKW_CUAVB253" V 3700 2600 50  0001 C CNN
+F 3 "http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/HB/Data%20Sheets/CLM1BRKWAKW1084.pdf" V 3700 2600 50  0001 C CNN
+F 4 "CLM1B-AKW-CUAVB253" H 3700 2600 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "CREE" H 3700 2600 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3700 2600 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=CLM1B-AKW-CUAVB253CT-ND" H 3700 2600 60  0001 C CNN "Supplyer_Link"
+F 8 "CLM1B-AKW-CUAVB253CT-ND" H 3700 2600 60  0001 C CNN "Supplyer_Part_No"
+F 9 "CLM1B-AKW-CUAVB253TR-ND" H 3700 2600 60  0001 C CNN "Reel_Part_No"
+F 10 "2500" H 3700 2600 60  0001 C CNN "Parts_Per_Reel"
+	1    3700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 2500 3700 2400
+Wire Wire Line
+	1025 2300 2475 2300
+$Comp
+L CONN_01X02 CN1
+U 1 1 582FB0BD
+P 825 2350
+F 0 "CN1" H 825 2500 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 835 2290 50  0001 C CNN
+F 2 "MyLib:6pin_SMT_HEADER" H 825 2350 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/95278.pdf" H 825 2350 50  0001 C CNN
+F 4 "95278-801A06LF" H 825 2350 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Amphenol FCI" H 825 2350 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 825 2350 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/amphenol-fci/67997-410HLF/609-3243-ND/1878475" H 825 2350 60  0001 C CNN "Supplyer_Link"
+F 8 "609-5161-1-ND" H 825 2350 60  0001 C CNN "Supplyer_Part_No"
+F 9 "609-5161-2-ND" H 825 2350 60  0001 C CNN "Reel_Part_No"
+F 10 "350" H 825 2350 60  0001 C CNN "Parts_Per_Reel"
+	1    825  2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP1
+U 1 1 58301126
+P 1850 2750
+F 0 "JP1" H 1850 2830 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 1860 2690 50  0001 C CNN
+F 2 "MyLib:Cut_Jumper" H 1850 2750 50  0001 C CNN
+F 3 "http://multimedia.3m.com/mws/media/548120O/3mtm-shunt-ts2186.pdf" H 1850 2750 50  0001 C CNN
+F 4 "969102-0000-DA" H 1850 2750 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "3M" H 1850 2750 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 1850 2750 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/3m/969102-0000-DA/3M9580-ND/2071621" H 1850 2750 60  0001 C CNN "Supplyer_Link"
+F 8 "3M9580-ND" H 1850 2750 60  0001 C CNN "Supplyer_Part_No"
+F 9 "None" H 1850 2750 60  0001 C CNN "Reel_Part_No"
+F 10 "None" H 1850 2750 60  0001 C CNN "Parts_Per_Reel"
+	1    1850 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1375 2500 1700 2500
+Wire Wire Line
+	2000 2500 2475 2500
+Wire Wire Line
+	1950 2750 2225 2750
+Wire Wire Line
+	2225 2750 2225 2500
+Connection ~ 2225 2500
+Wire Wire Line
+	1750 2750 1525 2750
+Wire Wire Line
+	1525 2750 1525 2500
+Connection ~ 1525 2500
+Text Notes 900  1825 0    60   ~ 0
+Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\n30A Max curent through Q1.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
+$Comp
+L CONN_01X02 FAN
+U 1 1 58410C7F
+P 850 3300
+F 0 "FAN" H 850 3450 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 860 3240 50  0001 C CNN
+F 2 "MyLib:10pin_connector" H 850 3300 50  0001 C CNN
+F 3 "-NA-" H 850 3300 50  0001 C CNN
+F 4 "-NA-" H 850 3300 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "-NA-" H 850 3300 60  0001 C CNN "Manufacturer"
+F 6 "-NA-" H 850 3300 60  0001 C CNN "Supplyer"
+F 7 "-NA-" H 850 3300 60  0001 C CNN "Supplyer_Link"
+F 8 "-NA-" H 850 3300 60  0001 C CNN "Supplyer_Part_No"
+F 9 "-NA-" H 850 3300 60  0001 C CNN "Reel_Part_No"
+F 10 "-NA-" H 850 3300 60  0001 C CNN "Parts_Per_Reel"
+	1    850  3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR03
+U 1 1 58410D16
+P 1050 3150
+F 0 "#PWR03" H 1050 3000 50  0001 C CNN
+F 1 "+BATT" H 1050 3290 50  0000 C CNN
+F 2 "" H 1050 3150 50  0000 C CNN
+F 3 "" H 1050 3150 50  0000 C CNN
+	1    1050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 58410D9F
+P 1050 3450
+F 0 "#PWR04" H 1050 3200 50  0001 C CNN
+F 1 "GND" H 1050 3300 50  0000 C CNN
+F 2 "" H 1050 3450 50  0000 C CNN
+F 3 "" H 1050 3450 50  0000 C CNN
+	1    1050 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3350 1050 3450
+Wire Wire Line
+	1050 3250 1050 3150
+$Comp
+L R R2
+U 1 1 58423706
+P 3100 3125
+F 0 "R2" V 3180 3125 50  0000 C CNN
+F 1 "1.8K" V 3000 3125 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3030 3125 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3100 3125 50  0001 C CNN
+F 4 "RC1206FR-071K8L" H 3100 3125 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Yageo" H 3100 3125 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3100 3125 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664" H 3100 3125 60  0001 C CNN "Supplyer_Link"
+F 8 "311-1.80KFRCT-ND" H 3100 3125 60  0001 C CNN "Supplyer_Part_No"
+F 9 "311-1.80FRTR-ND" H 3100 3125 60  0001 C CNN "Reel_Part_No"
+F 10 "5000" H 3100 3125 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".1" H 3100 3125 60  0001 C CNN "Cost"
+	1    3100 3125
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 2600 4600 2600
+Connection ~ 4525 2400
+$Comp
+L Q_NMOS_GDSD Q1
+U 1 1 58423900
+P 3600 2925
+F 0 "Q1" H 3900 2925 50  0000 R CNN
+F 1 "FDD9407_F085" H 4350 2825 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-3Lead" H 3800 3025 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/FD/FDD9407_F085.pdf" H 3600 2925 50  0001 C CNN
+F 4 "FDD9407_F085" H 3600 2925 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Fairchild Semiconductor" H 3600 2925 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3600 2925 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/fairchild-semiconductor/FDD9407_F085/FDD9407_F085CT-ND/4963423" H 3600 2925 60  0001 C CNN "Supplyer_Link"
+F 8 "FDD9407_F085CT-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
+F 9 "FDD9407_F085TR-ND" H 3600 2925 60  0001 C CNN "Reel_Part_No"
+F 10 "2,500" H 3600 2925 60  0001 C CNN "Parts_Per_Reel"
+	1    3600 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 584239D3
+P 3700 3200
+F 0 "#PWR05" H 3700 2950 50  0001 C CNN
+F 1 "GND" H 3700 3050 50  0000 C CNN
+F 2 "" H 3700 3200 50  0000 C CNN
+F 3 "" H 3700 3200 50  0000 C CNN
+	1    3700 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3200 3700 3125
+$Comp
+L +BATT #PWR06
+U 1 1 58423EEF
+P 3700 2050
+F 0 "#PWR06" H 3700 1900 50  0001 C CNN
+F 1 "+BATT" H 3700 2190 50  0000 C CNN
+F 2 "" H 3700 2050 50  0000 C CNN
+F 3 "" H 3700 2050 50  0000 C CNN
+	1    3700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2050 3700 2100
+Wire Wire Line
+	4600 2700 3700 2700
+$Comp
+L GND #PWR07
+U 1 1 5842462A
+P 3100 3275
+F 0 "#PWR07" H 3100 3025 50  0001 C CNN
+F 1 "GND" H 3100 3125 50  0000 C CNN
+F 2 "" H 3100 3275 50  0000 C CNN
+F 3 "" H 3100 3275 50  0000 C CNN
+	1    3100 3275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2875 3100 2975
+Wire Wire Line
+	3400 2925 3100 2925
+Connection ~ 3100 2925
+Wire Wire Line
+	3075 2300 3100 2300
+Wire Wire Line
+	3100 2300 3100 2050
+Wire Wire Line
+	3075 2500 3100 2500
+Wire Wire Line
+	3100 2500 3100 2575
+$Comp
+L GND #PWR08
+U 1 1 580AECBB
+P 4475 2800
+F 0 "#PWR08" H 4475 2550 50  0001 C CNN
+F 1 "GND" H 4475 2650 50  0000 C CNN
+F 2 "" H 4475 2800 50  0000 C CNN
+F 3 "" H 4475 2800 50  0000 C CNN
+	1    4475 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2500 4475 2500
+Wire Wire Line
+	4475 2500 4475 2800
+Wire Wire Line
+	3800 2725 3800 2700
+Connection ~ 3800 2700
+$Comp
+L R R5
+U 1 1 58427F19
+P 3700 2250
+F 0 "R5" V 3780 2250 50  0000 C CNN
+F 1 "1.8K" V 3600 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3630 2250 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3700 2250 50  0001 C CNN
+F 4 "RC1206FR-071K8L" H 3700 2250 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Yageo" H 3700 2250 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3700 2250 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664" H 3700 2250 60  0001 C CNN "Supplyer_Link"
+F 8 "311-1.80KFRCT-ND" H 3700 2250 60  0001 C CNN "Supplyer_Part_No"
+F 9 "311-1.80FRTR-ND" H 3700 2250 60  0001 C CNN "Reel_Part_No"
+F 10 "5000" H 3700 2250 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".1" H 3700 2250 60  0001 C CNN "Cost"
+	1    3700 2250
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
