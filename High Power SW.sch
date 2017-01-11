@@ -65,38 +65,19 @@ $EndComp
 $Comp
 L +BATT #PWR01
 U 1 1 580AECD6
-P 4525 2250
-F 0 "#PWR01" H 4525 2100 50  0001 C CNN
-F 1 "+BATT" H 4525 2390 50  0000 C CNN
-F 2 "" H 4525 2250 50  0000 C CNN
-F 3 "" H 4525 2250 50  0000 C CNN
-	1    4525 2250
+P 4525 2350
+F 0 "#PWR01" H 4525 2200 50  0001 C CNN
+F 1 "+BATT" H 4525 2490 50  0000 C CNN
+F 2 "" H 4525 2350 50  0000 C CNN
+F 3 "" H 4525 2350 50  0000 C CNN
+	1    4525 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X01 POWER+
 U 1 1 5810117A
-P 4800 2400
-F 0 "POWER+" H 4875 2400 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
-F 2 "MyLib:Keystone_terminal" H 4800 2400 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2400 50  0001 C CNN
-F 4 "8197" H 4800 2400 60  0001 C CNN "Manufacturer_Part_No"
-F 5 "Keystone Electronics" H 4800 2400 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2400 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2400 60  0001 C CNN "Supplyer_Link"
-F 8 "36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
-F 9 "Part is not Reeled" H 4800 2400 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2400 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".59" H 4800 2400 60  0001 C CNN "Cost"
-	1    4800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 POWER-
-U 1 1 58101E9B
 P 4800 2500
-F 0 "POWER-" H 4875 2500 50  0000 L CNN
+F 0 "POWER+" H 4875 2500 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
 F 2 "MyLib:Keystone_terminal" H 4800 2500 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2500 50  0001 C CNN
@@ -105,7 +86,9 @@ F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2500 60  0001 C CNN "Supplyer_Link"
 F 8 "36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
-F 9 ".59" H 4800 2500 60  0001 C CNN "Cost"
+F 9 "Part is not Reeled" H 4800 2500 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
+F 11 ".59" H 4800 2500 60  0001 C CNN "Cost"
 	1    4800 2500
 	1    0    0    -1  
 $EndComp
@@ -196,28 +179,20 @@ L R R1
 U 1 1 581EA32B
 P 3100 2725
 F 0 "R1" V 3180 2725 50  0000 C CNN
-F 1 "604" V 3000 2725 50  0000 C CNN
+F 1 "1.0K" V 3000 2725 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3030 2725 50  0001 C CNN
 F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3100 2725 50  0001 C CNN
-F 4 "RC1206FR-07604RL" H 3100 2725 60  0001 C CNN "Manufacturer_Part_No"
+F 4 "RC1206FR-071KL" H 3100 2725 60  0001 C CNN "Manufacturer_Part_No"
 F 5 "Yageo" H 3100 2725 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3100 2725 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664" H 3100 2725 60  0001 C CNN "Supplyer_Link"
-F 8 "311-604FRCT-ND" H 3100 2725 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-604FRTR-ND" H 3100 2725 60  0001 C CNN "Reel_Part_No"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 3100 2725 60  0001 C CNN "Supplyer_Link"
+F 8 "311-1.00KFRCT-ND" H 3100 2725 60  0001 C CNN "Supplyer_Part_No"
+F 9 "311-1.00KFRTR-ND" H 3100 2725 60  0001 C CNN "Reel_Part_No"
 F 10 "5000" H 3100 2725 60  0001 C CNN "Parts_Per_Reel"
 F 11 ".1" H 3100 2725 60  0001 C CNN "Cost"
 	1    3100 2725
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 2400 4525 2400
-Wire Wire Line
-	4525 2250 4525 2600
-Wire Wire Line
-	1025 2400 1025 2500
-Wire Wire Line
-	1025 2500 1075 2500
 $Comp
 L Led_Small D3
 U 1 1 582E54FD
@@ -236,10 +211,6 @@ F 10 "2500" H 3700 2600 60  0001 C CNN "Parts_Per_Reel"
 	1    3700 2600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3700 2500 3700 2400
-Wire Wire Line
-	1025 2300 2475 2300
 $Comp
 L CONN_01X02 CN1
 U 1 1 582FB0BD
@@ -276,66 +247,48 @@ F 10 "None" H 1850 2750 60  0001 C CNN "Parts_Per_Reel"
 	1    1850 2750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1375 2500 1700 2500
-Wire Wire Line
-	2000 2500 2475 2500
-Wire Wire Line
-	1950 2750 2225 2750
-Wire Wire Line
-	2225 2750 2225 2500
-Connection ~ 2225 2500
-Wire Wire Line
-	1750 2750 1525 2750
-Wire Wire Line
-	1525 2750 1525 2500
-Connection ~ 1525 2500
-Text Notes 900  1825 0    60   ~ 0
-Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through Q1.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
+Text Notes 550  1800 0    60   ~ 0
+Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through entgire device.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
 L CONN_01X02 FAN
 U 1 1 58410C7F
-P 850 3300
-F 0 "FAN" H 850 3450 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 860 3240 50  0001 C CNN
-F 2 "MyLib:10pin_connector" H 850 3300 50  0001 C CNN
-F 3 "-NA-" H 850 3300 50  0001 C CNN
-F 4 "-NA-" H 850 3300 60  0001 C CNN "Manufacturer_Part_No"
-F 5 "-NA-" H 850 3300 60  0001 C CNN "Manufacturer"
-F 6 "-NA-" H 850 3300 60  0001 C CNN "Supplyer"
-F 7 "-NA-" H 850 3300 60  0001 C CNN "Supplyer_Link"
-F 8 "-NA-" H 850 3300 60  0001 C CNN "Supplyer_Part_No"
-F 9 "-NA-" H 850 3300 60  0001 C CNN "Reel_Part_No"
-F 10 "-NA-" H 850 3300 60  0001 C CNN "Parts_Per_Reel"
-	1    850  3300
+P 825 3025
+F 0 "FAN" H 825 3175 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 835 2965 50  0001 C CNN
+F 2 "" H 825 3025 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/M20-106.pdf" H 825 3025 50  0001 C CNN
+F 4 "M20-1060200" H 825 3025 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Harwin Inc." H 825 3025 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 825 3025 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/harwin-inc/M20-1060200/952-2227-ND/3728191" H 825 3025 60  0001 C CNN "Supplyer_Link"
+F 8 "952-2227-ND" H 825 3025 60  0001 C CNN "Supplyer_Part_No"
+F 9 "-NA-" H 825 3025 60  0001 C CNN "Reel_Part_No"
+F 10 "-NA-" H 825 3025 60  0001 C CNN "Parts_Per_Reel"
+	1    825  3025
 	-1   0    0    -1  
 $EndComp
 $Comp
 L +BATT #PWR03
 U 1 1 58410D16
-P 1050 3150
-F 0 "#PWR03" H 1050 3000 50  0001 C CNN
-F 1 "+BATT" H 1050 3290 50  0000 C CNN
-F 2 "" H 1050 3150 50  0000 C CNN
-F 3 "" H 1050 3150 50  0000 C CNN
-	1    1050 3150
+P 1025 2875
+F 0 "#PWR03" H 1025 2725 50  0001 C CNN
+F 1 "+BATT" H 1025 3015 50  0000 C CNN
+F 2 "" H 1025 2875 50  0000 C CNN
+F 3 "" H 1025 2875 50  0000 C CNN
+	1    1025 2875
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 58410D9F
-P 1050 3450
-F 0 "#PWR04" H 1050 3200 50  0001 C CNN
-F 1 "GND" H 1050 3300 50  0000 C CNN
-F 2 "" H 1050 3450 50  0000 C CNN
-F 3 "" H 1050 3450 50  0000 C CNN
-	1    1050 3450
+P 1025 3175
+F 0 "#PWR04" H 1025 2925 50  0001 C CNN
+F 1 "GND" H 1025 3025 50  0000 C CNN
+F 2 "" H 1025 3175 50  0000 C CNN
+F 3 "" H 1025 3175 50  0000 C CNN
+	1    1025 3175
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 3350 1050 3450
-Wire Wire Line
-	1050 3250 1050 3150
 $Comp
 L R R2
 U 1 1 58423706
@@ -355,9 +308,6 @@ F 11 ".1" H 3100 3125 60  0001 C CNN "Cost"
 	1    3100 3125
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4525 2600 4600 2600
-Connection ~ 4525 2400
 $Comp
 L Q_NMOS_GDSD Q1
 U 1 1 58423900
@@ -387,8 +337,6 @@ F 3 "" H 3700 3200 50  0000 C CNN
 	1    3700 3200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 3200 3700 3125
 $Comp
 L +BATT #PWR06
 U 1 1 58423EEF
@@ -400,10 +348,6 @@ F 3 "" H 3700 2050 50  0000 C CNN
 	1    3700 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 2050 3700 2100
-Wire Wire Line
-	4600 2700 3700 2700
 $Comp
 L GND #PWR07
 U 1 1 5842462A
@@ -415,37 +359,17 @@ F 3 "" H 3100 3275 50  0000 C CNN
 	1    3100 3275
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 2875 3100 2975
-Wire Wire Line
-	3400 2925 3100 2925
-Connection ~ 3100 2925
-Wire Wire Line
-	3075 2300 3100 2300
-Wire Wire Line
-	3100 2300 3100 2050
-Wire Wire Line
-	3075 2500 3100 2500
-Wire Wire Line
-	3100 2500 3100 2575
 $Comp
 L GND #PWR08
 U 1 1 580AECBB
-P 4475 2800
-F 0 "#PWR08" H 4475 2550 50  0001 C CNN
-F 1 "GND" H 4475 2650 50  0000 C CNN
-F 2 "" H 4475 2800 50  0000 C CNN
-F 3 "" H 4475 2800 50  0000 C CNN
-	1    4475 2800
+P 4375 2450
+F 0 "#PWR08" H 4375 2200 50  0001 C CNN
+F 1 "GND" H 4375 2300 50  0000 C CNN
+F 2 "" H 4375 2450 50  0000 C CNN
+F 3 "" H 4375 2450 50  0000 C CNN
+	1    4375 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 2500 4475 2500
-Wire Wire Line
-	4475 2500 4475 2800
-Wire Wire Line
-	3800 2725 3800 2700
-Connection ~ 3800 2700
 $Comp
 L R R5
 U 1 1 58427F19
@@ -465,4 +389,84 @@ F 11 ".1" H 3700 2250 60  0001 C CNN "Cost"
 	1    3700 2250
 	-1   0    0    -1  
 $EndComp
+Text Notes 575  3775 0    60   ~ 0
+CN1, FAN, and JP1 are all combined into one connector on the PCB. \nThe connector part number is in the part data for CN1\nPart Data for the shorting block is in JP1\n
+Text Notes 575  4000 0    60   ~ 0
+Mating Connector for for CN1 and FAN - Harwin Inc. M20-1060200 with crimp M20-1160042\nDigi-Key part Numbers - 952-2227-ND and 952-2157-2-ND respectivly.
+$Comp
+L CONN_01X01 POWER-
+U 1 1 58101E9B
+P 4800 2400
+F 0 "POWER-" H 4875 2400 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2400 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2400 50  0001 C CNN
+F 4 "8197" H 4800 2400 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "Keystone Electronics" H 4800 2400 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2400 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2400 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
+F 9 ".59" H 4800 2400 60  0001 C CNN "Cost"
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2500 4525 2500
+Wire Wire Line
+	1025 2400 1025 2500
+Wire Wire Line
+	1025 2500 1075 2500
+Wire Wire Line
+	3700 2500 3700 2400
+Wire Wire Line
+	1025 2300 2475 2300
+Wire Wire Line
+	1375 2500 1700 2500
+Wire Wire Line
+	2000 2500 2475 2500
+Wire Wire Line
+	1950 2750 2225 2750
+Wire Wire Line
+	2225 2750 2225 2500
+Connection ~ 2225 2500
+Wire Wire Line
+	1750 2750 1525 2750
+Wire Wire Line
+	1525 2750 1525 2500
+Connection ~ 1525 2500
+Wire Wire Line
+	1025 3075 1025 3175
+Wire Wire Line
+	1025 2975 1025 2875
+Connection ~ 4525 2500
+Wire Wire Line
+	3700 3200 3700 3125
+Wire Wire Line
+	3700 2050 3700 2100
+Wire Wire Line
+	4600 2700 3700 2700
+Wire Wire Line
+	3100 2875 3100 2975
+Wire Wire Line
+	3400 2925 3100 2925
+Connection ~ 3100 2925
+Wire Wire Line
+	3075 2300 3100 2300
+Wire Wire Line
+	3100 2300 3100 2050
+Wire Wire Line
+	3075 2500 3100 2500
+Wire Wire Line
+	3100 2500 3100 2575
+Wire Wire Line
+	3800 2725 3800 2700
+Connection ~ 3800 2700
+Wire Wire Line
+	4525 2600 4600 2600
+Wire Wire Line
+	4525 2350 4525 2600
+Wire Wire Line
+	4600 2400 4375 2400
+Wire Wire Line
+	4375 2400 4375 2450
 $EndSCHEMATC
