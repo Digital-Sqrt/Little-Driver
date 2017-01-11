@@ -74,10 +74,10 @@ F 3 "" H 4525 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 POWER+
+L CONN_01X01 POWER+1
 U 1 1 5810117A
 P 4800 2500
-F 0 "POWER+" H 4875 2500 50  0000 L CNN
+F 0 "POWER+1" H 4875 2500 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
 F 2 "MyLib:Keystone_terminal" H 4800 2500 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2500 50  0001 C CNN
@@ -93,10 +93,10 @@ F 11 ".59" H 4800 2500 60  0001 C CNN "Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 BED+
+L CONN_01X01 BED+1
 U 1 1 58101EEA
 P 4800 2600
-F 0 "BED+" H 4875 2600 50  0000 L CNN
+F 0 "BED+1" H 4875 2600 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
 F 2 "MyLib:Keystone_terminal" H 4800 2600 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2600 50  0001 C CNN
@@ -110,10 +110,10 @@ F 9 ".59" H 4800 2600 60  0001 C CNN "Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 BED-
+L CONN_01X01 BED-1
 U 1 1 58101F36
 P 4800 2700
-F 0 "BED-" H 4875 2700 50  0000 L CNN
+F 0 "BED-1" H 4875 2700 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
 F 2 "MyLib:Keystone_terminal" H 4800 2700 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2700 50  0001 C CNN
@@ -250,18 +250,18 @@ $EndComp
 Text Notes 550  1800 0    60   ~ 0
 Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through entgire device.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
-L CONN_01X02 FAN
+L CONN_01X02 FAN1
 U 1 1 58410C7F
 P 825 3025
-F 0 "FAN" H 825 3175 50  0000 C CNN
+F 0 "FAN1" H 825 3175 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 835 2965 50  0001 C CNN
-F 2 "" H 825 3025 50  0001 C CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-106.pdf" H 825 3025 50  0001 C CNN
-F 4 "M20-1060200" H 825 3025 60  0001 C CNN "Manufacturer_Part_No"
-F 5 "Harwin Inc." H 825 3025 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 825 3025 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/harwin-inc/M20-1060200/952-2227-ND/3728191" H 825 3025 60  0001 C CNN "Supplyer_Link"
-F 8 "952-2227-ND" H 825 3025 60  0001 C CNN "Supplyer_Part_No"
+F 2 "MyLib:6pin_SMT_HEADER" H 825 3025 50  0001 C CNN
+F 3 "-NA-" H 825 3025 50  0001 C CNN
+F 4 "-NA-" H 825 3025 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "-NA-" H 825 3025 60  0001 C CNN "Manufacturer"
+F 6 "-NA-" H 825 3025 60  0001 C CNN "Supplyer"
+F 7 "-NA-" H 825 3025 60  0001 C CNN "Supplyer_Link"
+F 8 "-NA-" H 825 3025 60  0001 C CNN "Supplyer_Part_No"
 F 9 "-NA-" H 825 3025 60  0001 C CNN "Reel_Part_No"
 F 10 "-NA-" H 825 3025 60  0001 C CNN "Parts_Per_Reel"
 	1    825  3025
@@ -391,13 +391,13 @@ F 11 ".1" H 3700 2250 60  0001 C CNN "Cost"
 $EndComp
 Text Notes 575  3775 0    60   ~ 0
 CN1, FAN, and JP1 are all combined into one connector on the PCB. \nThe connector part number is in the part data for CN1\nPart Data for the shorting block is in JP1\n
-Text Notes 650  4075 0    60   ~ 0
-Mating Connector for for CN1 and FAN is a Harwin Inc. M20-1060200 with crimp  M20-1160042\nDigi-Key part Numbers - 952-2227-ND and 952-2157-2-ND respectivly.
+Text Notes 575  4000 0    60   ~ 0
+Mating Connector for for CN1 and FAN - Harwin Inc. M20-1060200 with crimp M20-1160042\nDigi-Key part Numbers - 952-2227-ND and 952-2157-2-ND respectivly.
 $Comp
-L CONN_01X01 POWER-
+L CONN_01X01 POWER-1
 U 1 1 58101E9B
 P 4800 2400
-F 0 "POWER-" H 4875 2400 50  0000 L CNN
+F 0 "POWER-1" H 4875 2400 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
 F 2 "MyLib:Keystone_terminal" H 4800 2400 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2400 50  0001 C CNN

@@ -255,13 +255,13 @@ U 1 1 58410C7F
 P 825 3025
 F 0 "FAN" H 825 3175 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 835 2965 50  0001 C CNN
-F 2 "" H 825 3025 50  0001 C CNN
-F 3 "https://cdn.harwin.com/pdfs/M20-106.pdf" H 825 3025 50  0001 C CNN
-F 4 "M20-1060200" H 825 3025 60  0001 C CNN "Manufacturer_Part_No"
-F 5 "Harwin Inc." H 825 3025 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 825 3025 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/harwin-inc/M20-1060200/952-2227-ND/3728191" H 825 3025 60  0001 C CNN "Supplyer_Link"
-F 8 "952-2227-ND" H 825 3025 60  0001 C CNN "Supplyer_Part_No"
+F 2 "MyLib:6pin_SMT_HEADER" H 825 3025 50  0001 C CNN
+F 3 "-NA-" H 825 3025 50  0001 C CNN
+F 4 "-NA-" H 825 3025 60  0001 C CNN "Manufacturer_Part_No"
+F 5 "-NA-" H 825 3025 60  0001 C CNN "Manufacturer"
+F 6 "-NA-" H 825 3025 60  0001 C CNN "Supplyer"
+F 7 "-NA-" H 825 3025 60  0001 C CNN "Supplyer_Link"
+F 8 "-NA-" H 825 3025 60  0001 C CNN "Supplyer_Part_No"
 F 9 "-NA-" H 825 3025 60  0001 C CNN "Reel_Part_No"
 F 10 "-NA-" H 825 3025 60  0001 C CNN "Parts_Per_Reel"
 	1    825  3025
