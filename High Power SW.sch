@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Logo-Digittle-Sqrt
+LIBS:CC-Logo
 LIBS:High Power SW-cache
 EELAYER 25 0
 EELAYER END
@@ -483,4 +484,6 @@ F 5 "Value" H 2325 4575 60  0001 C CNN "Parts_Per_Reel"
 	1    2325 4575
 	1    0    0    -1  
 $EndComp
+Text Notes 575  4225 0    60   ~ 0
+Little Driver is licensed under a\nCreative Commons Attribution-ShareAlike 3.0 Unported License.
 $EndSCHEMATC

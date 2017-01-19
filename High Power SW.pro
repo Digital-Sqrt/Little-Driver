@@ -1,4 +1,4 @@
-update=1/18/2017 10:18:11 PM
+update=1/19/2017 12:01:15 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -69,3 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Logo-Digittle-Sqrt
+LibName31=CC-Logo

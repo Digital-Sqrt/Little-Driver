@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Logo-Digittle-Sqrt
 LIBS:High Power SW-cache
 EELAYER 25 0
 EELAYER END
@@ -37,7 +38,7 @@ Sheet 1 1
 Title "Little Driver Board"
 Date "2016-11-26"
 Rev "1.5"
-Comp "Digital Sqrt"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -469,4 +470,17 @@ Wire Wire Line
 	4600 2400 4375 2400
 Wire Wire Line
 	4375 2400 4375 2450
+$Comp
+L LOGO #G?
+U 1 1 588038D4
+P 2325 4575
+F 0 "#G?" H 2325 4359 60  0001 C CNN
+F 1 "LOGO" H 2325 4791 60  0001 C CNN
+F 2 "" H 2325 4575 60  0001 C CNN
+F 3 "" H 2325 4575 60  0001 C CNN
+F 4 "Digi-Key" H 2325 4575 60  0001 C CNN "Supplyer"
+F 5 "Value" H 2325 4575 60  0001 C CNN "Parts_Per_Reel"
+	1    2325 4575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
