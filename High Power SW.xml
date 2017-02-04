@@ -2,12 +2,12 @@
 <export version="D">
   <design>
     <source>C:/Users/Adrian/Documents/Digital_Sqrt/Little-Driver/High Power SW.sch</source>
-    <date>1/11/2017 7:41:05 AM</date>
+    <date>2/3/2017 10:55:27 PM</date>
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Little Driver Board</title>
-        <company>Digital Sqrt</company>
+        <company/>
         <rev>1.5</rev>
         <date>2016-11-26</date>
         <source>High Power SW.sch</source>
@@ -24,7 +24,7 @@
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">RC1206FR-071K69L</field>
+        <field name="mfr_num">RC1206FR-071K69L</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334</field>
@@ -42,7 +42,7 @@
       <footprint>MyLib:Keystone_terminal</footprint>
       <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">8197</field>
+        <field name="mfr_num">8197</field>
         <field name="Manufacturer">Keystone Electronics</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
@@ -60,7 +60,7 @@
       <footprint>MyLib:Keystone_terminal</footprint>
       <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">8197</field>
+        <field name="mfr_num">8197</field>
         <field name="Manufacturer">Keystone Electronics</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
@@ -76,7 +76,7 @@
       <footprint>MyLib:Keystone_terminal</footprint>
       <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">8197</field>
+        <field name="mfr_num">8197</field>
         <field name="Manufacturer">Keystone Electronics</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
@@ -92,7 +92,7 @@
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">RC1206JR-07300RL</field>
+        <field name="mfr_num">RC1206JR-07300RL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/yageo/RC1206JR-07300RL/311-300ERCT-ND/732222</field>
@@ -110,7 +110,7 @@
       <footprint>MyLib:SOP-4</footprint>
       <datasheet>http://www.digikey.com/product-search/en?keywords=PS2801C-1-A</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">PS2801C-1-A</field>
+        <field name="mfr_num">PS2801C-1-A</field>
         <field name="Manufacturer">CEL</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=PS2801C-1-A</field>
@@ -127,7 +127,7 @@
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">RC1206FR-071KL</field>
+        <field name="mfr_num">RC1206FR-071KL</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334</field>
@@ -145,7 +145,7 @@
       <footprint>MyLib:CREE_CLM1B_AKW_CUAVB253</footprint>
       <datasheet>http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/HB/Data%20Sheets/CLM1BRKWAKW1084.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">CLM1B-AKW-CUAVB253</field>
+        <field name="mfr_num">CLM1B-AKW-CUAVB253</field>
         <field name="Manufacturer">CREE</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=CLM1B-AKW-CUAVB253CT-ND</field>
@@ -153,7 +153,7 @@
         <field name="Reel_Part_No">CLM1B-AKW-CUAVB253TR-ND</field>
         <field name="Parts_Per_Reel">2500</field>
       </fields>
-      <libsource lib="device" part="Led_Small"/>
+      <libsource lib="High Power SW-cache" part="Led_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>582E54FD</tstamp>
     </comp>
@@ -162,7 +162,7 @@
       <footprint>MyLib:6pin_SMT_HEADER</footprint>
       <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/95278.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">95278-801A06LF</field>
+        <field name="mfr_num">95278-801A06LF</field>
         <field name="Manufacturer">Amphenol FCI</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/amphenol-fci/67997-410HLF/609-3243-ND/1878475</field>
@@ -179,7 +179,7 @@
       <footprint>MyLib:Cut_Jumper</footprint>
       <datasheet>http://multimedia.3m.com/mws/media/548120O/3mtm-shunt-ts2186.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">969102-0000-DA</field>
+        <field name="mfr_num">969102-0000-DA</field>
         <field name="Manufacturer">3M</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/3m/969102-0000-DA/3M9580-ND/2071621</field>
@@ -196,7 +196,7 @@
       <footprint>MyLib:6pin_SMT_HEADER</footprint>
       <datasheet>-NA-</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">-NA-</field>
+        <field name="mfr_num">-NA-</field>
         <field name="Manufacturer">-NA-</field>
         <field name="Supplyer">-NA-</field>
         <field name="Supplyer_Link">-NA-</field>
@@ -213,7 +213,7 @@
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">RC1206FR-071K8L</field>
+        <field name="mfr_num">RC1206FR-071K8L</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664</field>
@@ -231,7 +231,7 @@
       <footprint>TO_SOT_Packages_SMD:TO-263-3Lead</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/FD/FDD9407_F085.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">FDD9407_F085</field>
+        <field name="mfr_num">FDD9407_F085</field>
         <field name="Manufacturer">Fairchild Semiconductor</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/fairchild-semiconductor/FDD9407_F085/FDD9407_F085CT-ND/4963423</field>
@@ -248,7 +248,7 @@
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">RC1206FR-071K8L</field>
+        <field name="mfr_num">RC1206FR-071K8L</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664</field>
@@ -266,7 +266,7 @@
       <footprint>MyLib:Keystone_terminal</footprint>
       <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
       <fields>
-        <field name="Manufacturer_Part_No">8197</field>
+        <field name="mfr_num">8197</field>
         <field name="Manufacturer">Keystone Electronics</field>
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
@@ -313,7 +313,7 @@
       </pins>
     </libpart>
     <libpart lib="device" part="Jumper_NC_Small">
-      <description>Jumper normally close</description>
+      <description>Jumper, normally closed</description>
       <fields>
         <field name="Reference">JP</field>
         <field name="Value">Jumper_NC_Small</field>
@@ -341,8 +341,7 @@
         <pin num="6" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Led_Small">
-      <description>Led</description>
+    <libpart lib="High Power SW-cache" part="Led_Small">
       <footprints>
         <fp>LED-*</fp>
         <fp>LED_*</fp>
@@ -357,7 +356,7 @@
       </pins>
     </libpart>
     <libpart lib="device" part="Q_NMOS_GDSD">
-      <description>Transistor N-MOSFET, collector connected to mounting plane (general)</description>
+      <description>Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)</description>
       <fields>
         <field name="Reference">Q</field>
         <field name="Value">Q_NMOS_GDSD</field>
@@ -386,14 +385,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    <library logical="High Power SW-cache">
+      <uri>C:\Users\Adrian\Documents\Digital_Sqrt\Little-Driver\High Power SW-cache.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
     </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
-    <library logical="opto">
-      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
   </libraries>
   <nets>
