@@ -154,7 +154,7 @@ P 2775 2400
 F 0 "U1" H 2600 2175 50  0000 L CNN
 F 1 "PS2801C-1-A" H 2425 2600 50  0000 L CNN
 F 2 "MyLib:SOP-4" H 2575 2200 50  0001 L CIN
-F 3 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 2775 2400 50  0001 L CNN
+F 3 "http://www.cel.com/pdf/datasheets/PS2801C-1,PS2801C-4.pdf" H 2775 2400 50  0001 L CNN
 F 4 "PS2801C-1-A" H 2775 2400 60  0001 C CNN "mfr_num"
 F 5 "CEL" H 2775 2400 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 2775 2400 60  0001 C CNN "Supplyer"
@@ -250,7 +250,7 @@ F 10 "None" H 1850 2750 60  0001 C CNN "Parts_Per_Reel"
 	-1   0    0    1   
 $EndComp
 Text Notes 550  1800 0    60   ~ 0
-Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through entgire device.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
+Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through entgire device.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
 L CONN_01X02 FAN
 U 1 1 58410C7F
@@ -472,10 +472,10 @@ Wire Wire Line
 Wire Wire Line
 	4375 2400 4375 2450
 $Comp
-L LOGO #G?
+L LOGO #G1
 U 1 1 588038D4
 P 2325 4575
-F 0 "#G?" H 2325 4359 60  0001 C CNN
+F 0 "#G1" H 2325 4359 60  0001 C CNN
 F 1 "LOGO" H 2325 4791 60  0001 C CNN
 F 2 "" H 2325 4575 60  0001 C CNN
 F 3 "" H 2325 4575 60  0001 C CNN
