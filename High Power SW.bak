@@ -76,59 +76,6 @@ F 3 "" H 4525 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 POWER+
-U 1 1 5810117A
-P 4800 2500
-F 0 "POWER+" H 4875 2500 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
-F 2 "MyLib:Keystone_terminal" H 4800 2500 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2500 50  0001 C CNN
-F 4 "8197" H 4800 2500 60  0001 C CNN "mfr_num"
-F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2500 60  0001 C CNN "Supplyer_Link"
-F 8 "36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
-F 9 "Part is not Reeled" H 4800 2500 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".59" H 4800 2500 60  0001 C CNN "Cost"
-	1    4800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 BED+
-U 1 1 58101EEA
-P 4800 2600
-F 0 "BED+" H 4875 2600 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
-F 2 "MyLib:Keystone_terminal" H 4800 2600 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2600 50  0001 C CNN
-F 4 "8197" H 4800 2600 60  0001 C CNN "mfr_num"
-F 5 "Keystone Electronics" H 4800 2600 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2600 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2600 60  0001 C CNN "Supplyer_Link"
-F 8 "36-8197-ND" H 4800 2600 60  0001 C CNN "Supplyer_Part_No"
-F 9 ".59" H 4800 2600 60  0001 C CNN "Cost"
-	1    4800 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 BED-
-U 1 1 58101F36
-P 4800 2700
-F 0 "BED-" H 4875 2700 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
-F 2 "MyLib:Keystone_terminal" H 4800 2700 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2700 50  0001 C CNN
-F 4 "8197" H 4800 2700 60  0001 C CNN "mfr_num"
-F 5 "Keystone Electronics" H 4800 2700 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2700 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2700 60  0001 C CNN "Supplyer_Link"
-F 8 "36-8197-ND" H 4800 2700 60  0001 C CNN "Supplyer_Part_No"
-F 9 ".59" H 4800 2700 60  0001 C CNN "Cost"
-	1    4800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R3
 U 1 1 5817E52A
 P 1225 2500
@@ -220,14 +167,13 @@ P 825 2350
 F 0 "CN1" H 825 2500 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 835 2290 50  0001 C CNN
 F 2 "MyLib:6pin_SMT_HEADER" H 825 2350 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/95278.pdf" H 825 2350 50  0001 C CNN
-F 4 "95278-801A06LF" H 825 2350 60  0001 C CNN "mfr_num"
-F 5 "Amphenol FCI" H 825 2350 60  0001 C CNN "Manufacturer"
+F 3 "http://www.molex.com/pdm_docs/sd/015912060_sd.pdf" H 825 2350 50  0001 C CNN
+F 4 "0015912060" H 825 2350 60  0001 C CNN "mfr_num"
+F 5 "Molex, LLC" H 825 2350 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 825 2350 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/amphenol-fci/67997-410HLF/609-3243-ND/1878475" H 825 2350 60  0001 C CNN "Supplyer_Link"
-F 8 "609-5161-1-ND" H 825 2350 60  0001 C CNN "Supplyer_Part_No"
-F 9 "609-5161-2-ND" H 825 2350 60  0001 C CNN "Reel_Part_No"
-F 10 "350" H 825 2350 60  0001 C CNN "Parts_Per_Reel"
+F 7 "http://www.digikey.com/product-detail/en/molex-llc/0015912060/WM17449-ND/614765" H 825 2350 60  0001 C CNN "Supplyer_Link"
+F 8 "WM17449-ND" H 825 2350 60  0001 C CNN "Supplyer_Part_No"
+F 9 "6600" H 825 2350 60  0001 C CNN "Parts_Per_Reel"
 	1    825  2350
 	-1   0    0    -1  
 $EndComp
@@ -250,7 +196,7 @@ F 10 "None" H 1850 2750 60  0001 C CNN "Parts_Per_Reel"
 	-1   0    0    1   
 $EndComp
 Text Notes 550  1800 0    60   ~ 0
-Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through entgire device.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
+Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through bed terminals.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
 L CONN_01X02 FAN
 U 1 1 58410C7F
@@ -315,16 +261,14 @@ L Q_NMOS_GDSD Q1
 U 1 1 58423900
 P 3600 2925
 F 0 "Q1" H 3900 2925 50  0000 R CNN
-F 1 "FDD9407_F085" H 4350 2825 50  0000 R CNN
+F 1 "IRFR7540TRPBF" H 4350 2825 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:TO-263-3Lead" H 3800 3025 50  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/FD/FDD9407_F085.pdf" H 3600 2925 50  0001 C CNN
-F 4 "FDD9407_F085" H 3600 2925 60  0001 C CNN "mfr_num"
-F 5 "Fairchild Semiconductor" H 3600 2925 60  0001 C CNN "Manufacturer"
+F 3 "http://www.infineon.com/dgdl/irfr7540pbf.pdf?fileId=5546d462533600a401535635b06a211c" H 3600 2925 50  0001 C CNN
+F 4 "IRFR7540TRPBF" H 3600 2925 60  0001 C CNN "mfr_num"
+F 5 "Infineon Technologies" H 3600 2925 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3600 2925 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/fairchild-semiconductor/FDD9407_F085/FDD9407_F085CT-ND/4963423" H 3600 2925 60  0001 C CNN "Supplyer_Link"
-F 8 "FDD9407_F085CT-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
-F 9 "FDD9407_F085TR-ND" H 3600 2925 60  0001 C CNN "Reel_Part_No"
-F 10 "2,500" H 3600 2925 60  0001 C CNN "Parts_Per_Reel"
+F 7 "http://www.digikey.com/product-detail/en/infineon-technologies/IRFR7540TRPBF/IRFR7540TRPBFCT-ND/4867611" H 3600 2925 60  0001 C CNN "Supplyer_Link"
+F 8 "IRFR7540TRPBFCT-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
 	1    3600 2925
 	1    0    0    -1  
 $EndComp
@@ -401,14 +345,15 @@ U 1 1 58101E9B
 P 4800 2400
 F 0 "POWER-" H 4875 2400 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
-F 2 "MyLib:Keystone_terminal" H 4800 2400 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2400 50  0001 C CNN
-F 4 "8197" H 4800 2400 60  0001 C CNN "mfr_num"
+F 2 "MyLib:Keystone_4966" H 4800 2400 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2400 50  0001 C CNN
+F 4 "4966" H 4800 2400 60  0001 C CNN "mfr_num"
 F 5 "Keystone Electronics" H 4800 2400 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2400 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=36-8197-nd" H 4800 2400 60  0001 C CNN "Supplyer_Link"
-F 8 "36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
-F 9 ".59" H 4800 2400 60  0001 C CNN "Cost"
+F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2400 60  0001 C CNN "Supplyer_Link"
+F 8 "36-4966-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2400 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2400 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2400
 	1    0    0    -1  
 $EndComp
@@ -486,4 +431,58 @@ F 5 "Value" H 2325 4575 60  0001 C CNN "Parts_Per_Reel"
 $EndComp
 Text Notes 575  4225 0    60   ~ 0
 Little Driver is licensed under a\nCreative Commons Attribution-ShareAlike 3.0 Unported License.
+$Comp
+L CONN_01X01 POWER+
+U 1 1 589D4FBD
+P 4800 2500
+F 0 "POWER+" H 4875 2500 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
+F 2 "MyLib:Keystone_4966" H 4800 2500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2500 50  0001 C CNN
+F 4 "4966" H 4800 2500 60  0001 C CNN "mfr_num"
+F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2500 60  0001 C CNN "Supplyer_Link"
+F 8 "36-4966-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2500 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
+	1    4800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 BED+
+U 1 1 589D511D
+P 4800 2600
+F 0 "BED+" H 4875 2600 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
+F 2 "MyLib:Keystone_4966" H 4800 2600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2600 50  0001 C CNN
+F 4 "4966" H 4800 2600 60  0001 C CNN "mfr_num"
+F 5 "Keystone Electronics" H 4800 2600 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2600 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2600 60  0001 C CNN "Supplyer_Link"
+F 8 "36-4966-ND" H 4800 2600 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2600 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2600 60  0001 C CNN "Parts_Per_Reel"
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 BED-
+U 1 1 589D51BD
+P 4800 2700
+F 0 "BED-" H 4875 2700 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
+F 2 "MyLib:Keystone_4966" H 4800 2700 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2700 50  0001 C CNN
+F 4 "4966" H 4800 2700 60  0001 C CNN "mfr_num"
+F 5 "Keystone Electronics" H 4800 2700 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2700 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2700 60  0001 C CNN "Supplyer_Link"
+F 8 "36-4966-ND" H 4800 2700 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2700 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2700 60  0001 C CNN "Parts_Per_Reel"
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
