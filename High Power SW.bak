@@ -367,13 +367,9 @@ Wire Wire Line
 Wire Wire Line
 	1025 2300 2475 2300
 Wire Wire Line
-	1375 2500 1525 2500
+	1375 2500 1700 2500
 Wire Wire Line
-	1525 2500 1700 2500
-Wire Wire Line
-	2000 2500 2225 2500
-Wire Wire Line
-	2225 2500 2475 2500
+	2000 2500 2475 2500
 Wire Wire Line
 	1950 2750 2225 2750
 Wire Wire Line
@@ -394,13 +390,9 @@ Wire Wire Line
 Wire Wire Line
 	3700 2050 3700 2100
 Wire Wire Line
-	4600 2700 3800 2700
+	3700 2700 4600 2700
 Wire Wire Line
-	3800 2700 3700 2700
-Wire Wire Line
-	3100 2875 3100 2925
-Wire Wire Line
-	3100 2925 3100 2975
+	3100 2875 3100 2975
 Wire Wire Line
 	3400 2925 3100 2925
 Connection ~ 3100 2925
@@ -418,9 +410,7 @@ Connection ~ 3800 2700
 Wire Wire Line
 	4525 2600 4600 2600
 Wire Wire Line
-	4525 2350 4525 2500
-Wire Wire Line
-	4525 2500 4525 2600
+	4525 2350 4525 2600
 Wire Wire Line
 	4600 2400 4375 2400
 Wire Wire Line
@@ -477,10 +467,10 @@ F 10 "NA" H 4800 2600 60  0001 C CNN "Parts_Per_Reel"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 BED-
+L CONN_01X01 BED-1
 U 1 1 589D51BD
 P 4800 2700
-F 0 "BED-" H 4875 2700 50  0000 L CNN
+F 0 "BED-1" H 4875 2700 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2700 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2700 50  0001 C CNN

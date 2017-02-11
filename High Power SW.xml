@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/Adrian/Documents/Digital_Sqrt/Little-Driver/High Power SW.sch</source>
-    <date>2/11/2017 1:16:30 AM</date>
+    <date>2/11/2017 1:34:59 AM</date>
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -383,17 +383,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="opto">
-      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
-    </library>
-    <library logical="High Power SW-cache">
-      <uri>C:\Users\Adrian\Documents\Digital_Sqrt\Little-Driver\High Power SW-cache.lib</uri>
-    </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
+    </library>
+    <library logical="High Power SW-cache">
+      <uri>C:\Users\Adrian\Documents\Digital_Sqrt\Little-Driver\High Power SW-cache.lib</uri>
     </library>
   </libraries>
   <nets>
