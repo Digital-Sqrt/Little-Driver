@@ -1772,6 +1772,7 @@
   (module MyLib:6pin_SMT_HEADER (layer F.Cu) (tedit 58803EB8) (tstamp 5842573B)
     (at 75.6 97.9)
     (path /582FB0BD)
+    (attr smd)
     (fp_text reference CN1 (at -2.5 -6 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1832,6 +1833,7 @@
   (module MyLib:CREE_CLM1B_AKW_CUAVB253 (layer F.Cu) (tedit 589D4B28) (tstamp 582E5E11)
     (at 84.1 115.4)
     (path /582E54FD)
+    (attr smd)
     (fp_text reference D3 (at 0 2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1853,6 +1855,7 @@
 
   (module kicad:OSHW_Mono_0.25_Scale (layer F.Cu) (tedit 58803E40) (tstamp 58803EE6)
     (at 74.59 108.97)
+    (attr smd)
     (fp_text reference "" (at 0 -5.758378) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
