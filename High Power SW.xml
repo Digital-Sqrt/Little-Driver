@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-<<<<<<< HEAD
-    <source>C:/Users/Adrian/Documents/Digital_Sqrt/Little-Driver 2/High Power SW.sch</source>
-    <date>2/10/2017 11:54:28 PM</date>
-=======
     <source>C:/Users/Adrian/Documents/Digital_Sqrt/Little-Driver/High Power SW.sch</source>
     <date>2/11/2017 12:00:50 AM</date>
->>>>>>> origin/master
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,64 +31,12 @@
         <field name="Supplyer_Part_No">311-1.69KFRCT-ND</field>
         <field name="Reel_Part_No">311-1.69KFRTR-ND</field>
         <field name="Parts_Per_Reel">5000</field>
+        <field name="Cost">.1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>580AE048</tstamp>
     </comp>
-<<<<<<< HEAD
-    <comp ref="POWER+1">
-      <value>CONN_01X01</value>
-      <footprint>MyLib:Keystone_4966</footprint>
-      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
-      <fields>
-        <field name="mfr_num">8197</field>
-        <field name="Manufacturer">Keystone Electronics</field>
-        <field name="Supplyer">Digi-Key</field>
-        <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
-        <field name="Supplyer_Part_No">36-8197-ND</field>
-        <field name="Reel_Part_No">Part is not Reeled</field>
-        <field name="Parts_Per_Reel">NA</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5810117A</tstamp>
-    </comp>
-    <comp ref="BED+1">
-      <value>CONN_01X01</value>
-      <footprint>MyLib:Keystone_4966</footprint>
-      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
-      <fields>
-        <field name="mfr_num">8197</field>
-        <field name="Manufacturer">Keystone Electronics</field>
-        <field name="Supplyer">Digi-Key</field>
-        <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
-        <field name="Supplyer_Part_No">36-8197-ND</field>
-        <field name="Parts_Per_Reel">Value</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58101EEA</tstamp>
-    </comp>
-    <comp ref="BED-1">
-      <value>CONN_01X01</value>
-      <footprint>MyLib:Keystone_4966</footprint>
-      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
-      <fields>
-        <field name="mfr_num">8197</field>
-        <field name="Manufacturer">Keystone Electronics</field>
-        <field name="Supplyer">Digi-Key</field>
-        <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
-        <field name="Supplyer_Part_No">36-8197-ND</field>
-        <field name="Parts_Per_Reel">Value</field>
-        <field name="Cost">.59</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58101F36</tstamp>
-    </comp>
-=======
->>>>>>> origin/master
     <comp ref="R3">
       <value>300</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
@@ -106,6 +49,7 @@
         <field name="Supplyer_Part_No">311-300ERCT-ND</field>
         <field name="Reel_Part_No">311-300ERTR-ND</field>
         <field name="Parts_Per_Reel">5000</field>
+        <field name="Cost">.1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -140,6 +84,7 @@
         <field name="Supplyer_Part_No">311-1.00KFRCT-ND</field>
         <field name="Reel_Part_No">311-1.00KFRTR-ND</field>
         <field name="Parts_Per_Reel">5000</field>
+        <field name="Cost">.1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -172,12 +117,7 @@
         <field name="Supplyer">Digi-Key</field>
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/molex-llc/0015912060/WM17449-ND/614765</field>
         <field name="Supplyer_Part_No">WM17449-ND</field>
-<<<<<<< HEAD
-        <field name="Reel_Part_No">NA</field>
-        <field name="Parts_Per_Reel">NA</field>
-=======
         <field name="Parts_Per_Reel">6600</field>
->>>>>>> origin/master
       </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,13 +169,12 @@
         <field name="Supplyer_Part_No">311-1.80KFRCT-ND</field>
         <field name="Reel_Part_No">311-1.80FRTR-ND</field>
         <field name="Parts_Per_Reel">5000</field>
+        <field name="Cost">.1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58423706</tstamp>
     </comp>
-<<<<<<< HEAD
-=======
     <comp ref="Q1">
       <value>IRFR7540TRPBF</value>
       <footprint>TO_SOT_Packages_SMD:TO-263-3Lead</footprint>
@@ -251,7 +190,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58423900</tstamp>
     </comp>
->>>>>>> origin/master
     <comp ref="R5">
       <value>3.6K</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
@@ -272,48 +210,20 @@
     <comp ref="POWER-1">
       <value>CONN_01X01</value>
       <footprint>MyLib:Keystone_4966</footprint>
-<<<<<<< HEAD
-      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1534</datasheet>
-=======
       <datasheet>http://www.keyelco.com/product-pdf.cfm?p=621</datasheet>
->>>>>>> origin/master
       <fields>
         <field name="mfr_num">4966</field>
         <field name="Manufacturer">Keystone Electronics</field>
         <field name="Supplyer">Digi-Key</field>
-<<<<<<< HEAD
-        <field name="Supplyer_Link">http://www.digikey.com/product-search/en?keywords=36-8197-nd</field>
-        <field name="Supplyer_Part_No">36-8197-ND</field>
-        <field name="Parts_Per_Reel">Value</field>
-=======
         <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924</field>
         <field name="Supplyer_Part_No">36-4966-ND</field>
         <field name="Reel_Part_No">NA</field>
         <field name="Parts_Per_Reel">NA</field>
->>>>>>> origin/master
       </fields>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58101E9B</tstamp>
     </comp>
-<<<<<<< HEAD
-    <comp ref="Q1">
-      <value>BUK7Y3R5-40E</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2</footprint>
-      <datasheet>http://www.nxp.com/documents/data_sheet/BUK7Y3R5-40E.pdf</datasheet>
-      <fields>
-        <field name="mfr_num">BUK7Y3R5-40E</field>
-        <field name="Manufacturer">Nexperia USA Inc.</field>
-        <field name="Supplyer">Digi-Key</field>
-        <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/nexperia-usa-inc/BUK7Y3R5-40E,115/568-11418-1-ND/4813988</field>
-        <field name="Supplyer_Part_No">568-11418-1-ND</field>
-        <field name="Reel_Part_No">1500</field>
-        <field name="Parts_Per_Reel">568-11418-2-ND</field>
-      </fields>
-      <libsource lib="MyComp" part="BUK7Y3R5-40E"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>589C024D</tstamp>
-=======
     <comp ref="POWER+1">
       <value>CONN_01X01</value>
       <footprint>MyLib:Keystone_4966</footprint>
@@ -364,24 +274,9 @@
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589D51BD</tstamp>
->>>>>>> origin/master
     </comp>
   </components>
   <libparts>
-    <libpart lib="MyComp" part="BUK7Y3R5-40E">
-      <description>Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BUK7Y3R5-40E</field>
-      </fields>
-      <pins>
-        <pin num="1" name="S" type="passive"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="S" type="input"/>
-        <pin num="4" name="G" type="input"/>
-        <pin num="5" name="D" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="conn" part="CONN_01X01">
       <description>Connector, single row, 01x01</description>
       <footprints>
@@ -458,6 +353,19 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="Q_NMOS_GDSD">
+      <description>Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -475,19 +383,8 @@
     </libpart>
   </libparts>
   <libraries>
-<<<<<<< HEAD
-    <library logical="opto">
-      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
-=======
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
->>>>>>> origin/master
-    </library>
-    <library logical="MyComp">
-      <uri>C:\Users\Adrian\Documents\Digital_Sqrt\Little-Driver 2\MyComp.lib</uri>
-    </library>
-    <library logical="High Power SW-cache">
-      <uri>C:\Users\Adrian\Documents\Digital_Sqrt\Little-Driver 2\High Power SW-cache.lib</uri>
     </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
@@ -500,35 +397,11 @@
     </library>
   </libraries>
   <nets>
-<<<<<<< HEAD
-    <net code="1" name="Net-(JP1-Pad1)">
-      <node ref="R4" pin="2"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="2" name="Net-(BED-1-Pad1)">
-      <node ref="BED-1" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="Q1" pin="5"/>
-    </net>
-    <net code="3" name="Net-(JP1-Pad2)">
-=======
     <net code="1" name="Net-(JP1-Pad2)">
->>>>>>> origin/master
       <node ref="JP1" pin="2"/>
       <node ref="R3" pin="2"/>
       <node ref="R4" pin="1"/>
     </net>
-<<<<<<< HEAD
-    <net code="4" name="Net-(Q1-Pad4)">
-      <node ref="R2" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="Q1" pin="4"/>
-    </net>
-    <net code="5" name="Net-(CN1-Pad1)">
-      <node ref="U1" pin="1"/>
-      <node ref="CN1" pin="1"/>
-=======
     <net code="2" name="Net-(JP1-Pad1)">
       <node ref="U1" pin="3"/>
       <node ref="R4" pin="2"/>
@@ -541,25 +414,11 @@
     <net code="4" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
       <node ref="R5" pin="2"/>
->>>>>>> origin/master
     </net>
-    <net code="6" name="Net-(D3-Pad2)">
-      <node ref="R5" pin="2"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="7" name="Net-(CN1-Pad2)">
-      <node ref="R3" pin="1"/>
+    <net code="5" name="Net-(CN1-Pad2)">
       <node ref="CN1" pin="2"/>
+      <node ref="R3" pin="1"/>
     </net>
-<<<<<<< HEAD
-    <net code="8" name="GND">
-      <node ref="R2" pin="2"/>
-      <node ref="POWER-1" pin="1"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="FAN1" pin="2"/>
-      <node ref="Q1" pin="3"/>
-=======
     <net code="6" name="Net-(R1-Pad1)">
       <node ref="U1" pin="4"/>
       <node ref="R1" pin="1"/>
@@ -574,7 +433,6 @@
       <node ref="Q1" pin="4"/>
       <node ref="BED-1" pin="1"/>
       <node ref="D3" pin="1"/>
->>>>>>> origin/master
     </net>
     <net code="9" name="+BATT">
       <node ref="R5" pin="1"/>
@@ -583,12 +441,13 @@
       <node ref="FAN1" pin="1"/>
       <node ref="U1" pin="6"/>
     </net>
-    <net code="10" name="+BATT">
-      <node ref="FAN1" pin="1"/>
-      <node ref="POWER+1" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R5" pin="1"/>
-      <node ref="BED+1" pin="1"/>
+    <net code="10" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
     </net>
   </nets>
 </export>
