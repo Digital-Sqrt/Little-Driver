@@ -1829,13 +1829,13 @@
     )
   )
 
-  (module MyLib:CREE_CLM1B_AKW_CUAVB253 (layer F.Cu) (tedit 58803F5A) (tstamp 582E5E11)
+  (module MyLib:CREE_CLM1B_AKW_CUAVB253 (layer F.Cu) (tedit 589D4B28) (tstamp 582E5E11)
     (at 84.1 115.4)
     (path /582E54FD)
     (fp_text reference D3 (at 0 2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Led_Small (at -0.2 3.6) (layer F.Fab)
+    (fp_text value Led_Small (at -0.2 3.6) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.667 -1.651) (end 2.794 -1.651) (layer F.CrtYd) (width 0.15))

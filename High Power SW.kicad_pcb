@@ -3,7 +3,7 @@
   (general
     (links 644)
     (no_connects 0)
-    (area 67.024999 86.824999 115.175001 134.975001)
+    (area 53.1 22.45 151.385726 137.4)
     (thickness 1.6)
     (drawings 23)
     (tracks 109)
@@ -2367,7 +2367,7 @@
     (arrow2b (pts (xy 117.099999 86.9) (xy 117.68642 88.026504)))
   )
   (dimension 3 (width 0.3) (layer Dwgs.User)
-    (gr_text "3.000 mm" (at 106.1 84.4) (layer Dwgs.User)
+    (gr_text "3.000 mm" (at 122 84.5) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 112.1 86.9) (xy 112.1 81.7)))

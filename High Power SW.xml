@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/Adrian/Documents/Digital_Sqrt/Little-Driver/High Power SW.sch</source>
-    <date>2/10/2017 12:01:35 AM</date>
+    <date>2/11/2017 12:00:50 AM</date>
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -191,18 +191,17 @@
       <tstamp>58423900</tstamp>
     </comp>
     <comp ref="R5">
-      <value>1.8K</value>
+      <value>3.6K</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
       <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
       <fields>
-        <field name="mfr_num">RC1206FR-071K8L</field>
+        <field name="mfr_num">RC1206FR-073K6L</field>
         <field name="Manufacturer">Yageo</field>
         <field name="Supplyer">Digi-Key</field>
-        <field name="Supplyer_Link">http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664</field>
-        <field name="Supplyer_Part_No">311-1.80KFRCT-ND</field>
-        <field name="Reel_Part_No">311-1.80FRTR-ND</field>
+        <field name="Supplyer_Link">http://www.digikey.com/products/en?keywords=311-3.60KFRCT-ND</field>
+        <field name="Supplyer_Part_No">311-3.60KFRCT-ND</field>
+        <field name="Reel_Part_No">311-3.60FRTR-ND</field>
         <field name="Parts_Per_Reel">5000</field>
-        <field name="Cost">.1</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -384,11 +383,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="opto">
       <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
