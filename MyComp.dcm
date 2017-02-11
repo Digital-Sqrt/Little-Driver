@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BUK7Y3R5-40E
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP TLP152
 D SO6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA
 K MOSFET Output Photorelay 1-Form-A

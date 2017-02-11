@@ -1,4 +1,4 @@
-update=2/3/2017 10:41:30 PM
+update=2/9/2017 12:12:46 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,6 +23,18 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,15 +70,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=Logo-Digittle-Sqrt
 LibName31=CC-Logo
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
+LibName32=MyComp
