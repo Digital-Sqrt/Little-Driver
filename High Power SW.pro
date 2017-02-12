@@ -1,4 +1,4 @@
-update=2/12/2017 1:48:05 AM
+update=2/12/2017 4:09:57 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -71,3 +69,5 @@ LibName29=valves
 LibName30=Logo-Digittle-Sqrt
 LibName31=CC-Logo
 LibName32=MyComp
+[general]
+version=1

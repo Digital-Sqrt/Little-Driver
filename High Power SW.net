@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source "C:/Users/Adrian/Documents/Digital_Sqrt/Little-Driver/High Power SW.sch")
-    (date "2/12/2017 2:15:14 AM")
+    (date "2/12/2017 2:22:41 AM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Little Driver Board")
         (company)
-        (rev 1.5)
+        (rev 1.7)
         (date 2016-11-26)
         (source "High Power SW.sch")
         (comment (number 1) (value ""))

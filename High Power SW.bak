@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Little Driver Board"
 Date "2016-11-26"
-Rev "1.5"
+Rev "1.7"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -465,10 +465,10 @@ F 10 "NA" H 4800 2700 60  0001 C CNN "Parts_Per_Reel"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSMN5R6-60YLX Q?
+L PSMN5R6-60YLX Q1
 U 1 1 58A00EB2
 P 3600 2925
-F 0 "Q?" H 3800 2975 50  0000 L CNN
+F 0 "Q1" H 3800 2975 50  0000 L CNN
 F 1 "PSMN5R6-60YLX" H 3800 2875 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2" H 3800 3025 50  0001 C CNN
 F 3 "http://cache.nxp.com/documents/data_sheet/PSMN5R6-60YL.pdf" H 3600 2925 50  0001 C CNN
