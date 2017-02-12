@@ -1,17 +1,17 @@
-### Module positions - created on 02/12/17 04:00:36 ###
+### Module positions - created on 02/12/17 12:29:08 ###
 ### Printed by Pcbnew version kicad 4.0.5
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val              Package                           PosX       PosY       Rot  Side
-          PENDING          OSHW_Mono_0.25_Scale           36.0000    22.0000  180.0000  bottom
-                           LOGO_POS                       18.7000    22.4000    0.0000  top
-CN1       Jumper_NC_Small  6pin_SMT_HEADER                37.2300    30.0700  270.0000  top
-D3        Led_Small        CREE_CLM1B_AKW_CUAVB253         3.4200    27.6100  270.0000  top
-Q1        PSMN5R6-60YLX    SOT-669_LFPAK_ThermalVias-2     6.9000    19.9000   90.0000  top
-R1        1.0K             R_1206_HandSoldering            9.6500    31.1500    0.0000  top
-R2        1.8K             R_1206_HandSoldering            9.6500    28.6500  180.0000  top
-R3        300              R_1206_HandSoldering           30.9000    28.9000  270.0000  top
-R4        1.69K            R_1206_HandSoldering           28.3400    28.9100   90.0000  top
-R5        3.6K             R_1206_HandSoldering            9.6500    26.1500  180.0000  top
-U1        PS2801C-1-A      SOP-4                          21.9000    30.9000  180.0000  top
+# Ref                Val              Package                           PosX       PosY       Rot  Side
+                                      LOGO_POS                       23.7600    19.7900  180.0000  bottom
+CN1                  Jumper_NC_Small  6pin_SMT_HEADER                 9.0000    23.0000  270.0000  top
+D3                   Led_Small        CREE_CLM1B_AKW_CUAVB253        24.0000    17.0000    0.0000  top
+OSHW_Mono_0.1_Scale  PENDING          OSHW_Mono_0.1_Scale            43.0900    16.9200    0.0000  top
+Q1                   PSMN5R6-60YLX    SOT-669_LFPAK_ThermalVias-2    34.0000    20.0000  180.0000  top
+R1                   1.0K             R_1206_HandSoldering           36.0000    27.0000    0.0000  top
+R2                   1.8K             R_1206_HandSoldering           40.0000    24.0000    0.0000  top
+R3                   300              R_1206_HandSoldering           15.0000    22.0000  270.0000  top
+R4                   1.69K            R_1206_HandSoldering            9.0000    17.0000  180.0000  top
+R5                   3.6K             R_1206_HandSoldering           14.0000    15.0000   90.0000  top
+U1                   PS2801C-1-A      SOP-4                          18.0000    21.0000  270.0000  top
 ## End
