@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:Logo-Digittle-Sqrt
 LIBS:CC-Logo
+LIBS:MyComp
 LIBS:High Power SW-cache
 EELAYER 25 0
 EELAYER END
@@ -145,19 +146,19 @@ $EndComp
 $Comp
 L Led_Small D3
 U 1 1 582E54FD
-P 3700 2600
-F 0 "D3" H 3650 2725 50  0000 L CNN
-F 1 "Led_Small" H 3525 2500 50  0001 L CNN
-F 2 "MyLib:CREE_CLM1B_AKW_CUAVB253" V 3700 2600 50  0001 C CNN
-F 3 "http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/HB/Data%20Sheets/CLM1BRKWAKW1084.pdf" V 3700 2600 50  0001 C CNN
-F 4 "CLM1B-AKW-CUAVB253" H 3700 2600 60  0001 C CNN "mfr_num"
-F 5 "CREE" H 3700 2600 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 3700 2600 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=CLM1B-AKW-CUAVB253CT-ND" H 3700 2600 60  0001 C CNN "Supplyer_Link"
-F 8 "CLM1B-AKW-CUAVB253CT-ND" H 3700 2600 60  0001 C CNN "Supplyer_Part_No"
-F 9 "CLM1B-AKW-CUAVB253TR-ND" H 3700 2600 60  0001 C CNN "Reel_Part_No"
-F 10 "2500" H 3700 2600 60  0001 C CNN "Parts_Per_Reel"
-	1    3700 2600
+P 3700 2550
+F 0 "D3" H 3650 2675 50  0000 L CNN
+F 1 "Led_Small" H 3525 2450 50  0001 L CNN
+F 2 "MyLib:CREE_CLM1B_AKW_CUAVB253" V 3700 2550 50  0001 C CNN
+F 3 "http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/HB/Data%20Sheets/CLM1BRKWAKW1084.pdf" V 3700 2550 50  0001 C CNN
+F 4 "CLM1B-AKW-CUAVB253" H 3700 2550 60  0001 C CNN "mfr_num"
+F 5 "CREE" H 3700 2550 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3700 2550 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-search/en?keywords=CLM1B-AKW-CUAVB253CT-ND" H 3700 2550 60  0001 C CNN "Supplyer_Link"
+F 8 "CLM1B-AKW-CUAVB253CT-ND" H 3700 2550 60  0001 C CNN "Supplyer_Part_No"
+F 9 "CLM1B-AKW-CUAVB253TR-ND" H 3700 2550 60  0001 C CNN "Reel_Part_No"
+F 10 "2500" H 3700 2550 60  0001 C CNN "Parts_Per_Reel"
+	1    3700 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -198,10 +199,10 @@ $EndComp
 Text Notes 550  1800 0    60   ~ 0
 Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remote if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through bed terminals.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
-L CONN_01X02 FAN
+L CONN_01X02 FAN1
 U 1 1 58410C7F
 P 825 3025
-F 0 "FAN" H 825 3175 50  0000 C CNN
+F 0 "FAN1" H 825 3175 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 835 2965 50  0001 C CNN
 F 2 "MyLib:6pin_SMT_HEADER" H 825 3025 50  0001 C CNN
 F 3 "-NA-" H 825 3025 50  0001 C CNN
@@ -257,30 +258,14 @@ F 11 ".1" H 3100 3125 60  0001 C CNN "Cost"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDSD Q1
-U 1 1 58423900
-P 3600 2925
-F 0 "Q1" H 3900 2925 50  0000 R CNN
-F 1 "IRFR7540TRPBF" H 4350 2825 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:TO-263-3Lead" H 3800 3025 50  0001 C CNN
-F 3 "http://www.infineon.com/dgdl/irfr7540pbf.pdf?fileId=5546d462533600a401535635b06a211c" H 3600 2925 50  0001 C CNN
-F 4 "IRFR7540TRPBF" H 3600 2925 60  0001 C CNN "mfr_num"
-F 5 "Infineon Technologies" H 3600 2925 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 3600 2925 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/infineon-technologies/IRFR7540TRPBF/IRFR7540TRPBFCT-ND/4867611" H 3600 2925 60  0001 C CNN "Supplyer_Link"
-F 8 "IRFR7540TRPBFCT-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
-	1    3600 2925
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR05
 U 1 1 584239D3
-P 3700 3200
-F 0 "#PWR05" H 3700 2950 50  0001 C CNN
-F 1 "GND" H 3700 3050 50  0000 C CNN
-F 2 "" H 3700 3200 50  0000 C CNN
-F 3 "" H 3700 3200 50  0000 C CNN
-	1    3700 3200
+P 3700 3275
+F 0 "#PWR05" H 3700 3025 50  0001 C CNN
+F 1 "GND" H 3700 3125 50  0000 C CNN
+F 2 "" H 3700 3275 50  0000 C CNN
+F 3 "" H 3700 3275 50  0000 C CNN
+	1    3700 3275
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -339,10 +324,10 @@ CN1, FAN, and JP1 are all combined into one connector on the PCB. \nThe connecto
 Text Notes 575  4000 0    60   ~ 0
 Mating Connector for for CN1 and FAN - Harwin Inc. M20-1060200 with crimp M20-1160042\nDigi-Key part Numbers - 952-2227-ND and 952-2157-2-ND respectivly.
 $Comp
-L CONN_01X01 POWER-
+L CONN_01X01 POWER-1
 U 1 1 58101E9B
 P 4800 2400
-F 0 "POWER-" H 4875 2400 50  0000 L CNN
+F 0 "POWER-1" H 4875 2400 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2400 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2400 50  0001 C CNN
@@ -362,8 +347,6 @@ Wire Wire Line
 	1025 2400 1025 2500
 Wire Wire Line
 	1025 2500 1075 2500
-Wire Wire Line
-	3700 2500 3700 2400
 Wire Wire Line
 	1025 2300 2475 2300
 Wire Wire Line
@@ -386,7 +369,7 @@ Wire Wire Line
 	1025 2975 1025 2875
 Connection ~ 4525 2500
 Wire Wire Line
-	3700 3200 3700 3125
+	3700 3125 3700 3275
 Wire Wire Line
 	3700 2050 3700 2100
 Wire Wire Line
@@ -404,9 +387,6 @@ Wire Wire Line
 	3075 2500 3100 2500
 Wire Wire Line
 	3100 2500 3100 2575
-Wire Wire Line
-	3800 2725 3800 2700
-Connection ~ 3800 2700
 Wire Wire Line
 	4525 2600 4600 2600
 Wire Wire Line
@@ -431,10 +411,10 @@ $EndComp
 Text Notes 575  4225 0    60   ~ 0
 Little Driver is licensed under a\nCreative Commons Attribution-ShareAlike 3.0 Unported License.
 $Comp
-L CONN_01X01 POWER+
+L CONN_01X01 POWER+1
 U 1 1 589D4FBD
 P 4800 2500
-F 0 "POWER+" H 4875 2500 50  0000 L CNN
+F 0 "POWER+1" H 4875 2500 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2500 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2500 50  0001 C CNN
@@ -449,10 +429,10 @@ F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 BED+
+L CONN_01X01 BED+1
 U 1 1 589D511D
 P 4800 2600
-F 0 "BED+" H 4875 2600 50  0000 L CNN
+F 0 "BED+1" H 4875 2600 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2600 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2600 50  0001 C CNN
@@ -484,4 +464,35 @@ F 10 "NA" H 4800 2700 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2700
 	1    0    0    -1  
 $EndComp
+$Comp
+L PSMN5R6-60YLX Q?
+U 1 1 58A00EB2
+P 3600 2925
+F 0 "Q?" H 3800 2975 50  0000 L CNN
+F 1 "PSMN5R6-60YLX" H 3800 2875 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2" H 3800 3025 50  0001 C CNN
+F 3 "http://cache.nxp.com/documents/data_sheet/PSMN5R6-60YL.pdf" H 3600 2925 50  0001 C CNN
+F 4 "PSMN5R6-60YLX" H 3600 2925 60  0001 C CNN "mfr_num"
+F 5 "Nexperia USA Inc." H 3600 2925 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3600 2925 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN5R6-60YLX/568-13047-1-ND/6167607" H 3600 2925 60  0001 C CNN "Supplyer_Link"
+F 8 "568-13047-1-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
+F 9 "568-13047-2-ND" H 3600 2925 60  0001 C CNN "Reel_Part_No"
+F 10 "1500" H 3600 2925 60  0001 C CNN "Parts_Per_Reel"
+	1    3600 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2650 3700 2725
+Wire Wire Line
+	3700 2400 3700 2450
+Connection ~ 3700 2700
+Wire Wire Line
+	3800 3200 3800 3125
+Wire Wire Line
+	3900 3200 3900 3125
+Wire Wire Line
+	3700 3200 3900 3200
+Connection ~ 3800 3200
+Connection ~ 3700 3200
 $EndSCHEMATC

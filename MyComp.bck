@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PSMN5R6-60YLX
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP TLP152
+D SO6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA
+K MOSFET Output Photorelay 1-Form-A
+$ENDCMP
+#
 $CMP TLP2361
 D MFSOP6, DC Darlington Optocoupler, Vce 35V, CTR 600%
 K NPN Darlington DC Optocoupler
