@@ -441,11 +441,11 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module MyLib:SOP-4 (layer F.Cu) (tedit 58A096A1) (tstamp 581EA3A3)
+  (module MyLib:SOP-4 (layer F.Cu) (tedit 58A2208D) (tstamp 581EA3A3)
     (at 85.1 113.9 270)
     (path /581E947F)
     (attr smd)
-    (fp_text reference U1 (at 1.73 -2.3 360) (layer F.SilkS)
+    (fp_text reference U1 (at -1.73 -2.42 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PS2801C-1-A (at -4.82 -2.3 270) (layer F.Fab) hide
