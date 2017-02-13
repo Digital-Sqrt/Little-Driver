@@ -199,10 +199,10 @@ $EndComp
 Text Notes 550  1800 0    60   ~ 0
 Power - 11v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remote if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through bed terminals.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
-L CONN_01X02 FAN1
+L CONN_01X02 FAN
 U 1 1 58410C7F
 P 825 3025
-F 0 "FAN1" H 825 3175 50  0000 C CNN
+F 0 "FAN" H 825 3175 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 835 2965 50  0001 C CNN
 F 2 "MyLib:6pin_SMT_HEADER" H 825 3025 50  0001 C CNN
 F 3 "-NA-" H 825 3025 50  0001 C CNN
@@ -324,10 +324,10 @@ CN1, FAN, and JP1 are all combined into one connector on the PCB. \nThe connecto
 Text Notes 575  4000 0    60   ~ 0
 Mating Connector for for CN1 and FAN - Harwin Inc. M20-1060200 with crimp M20-1160042\nDigi-Key part Numbers - 952-2227-ND and 952-2157-2-ND respectivly.
 $Comp
-L CONN_01X01 POWER-1
+L CONN_01X01 POWER-
 U 1 1 58101E9B
 P 4800 2400
-F 0 "POWER-1" H 4875 2400 50  0000 L CNN
+F 0 "POWER-" H 4875 2400 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2400 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2400 50  0001 C CNN
@@ -411,10 +411,10 @@ $EndComp
 Text Notes 575  4225 0    60   ~ 0
 Little Driver is licensed under a\nCreative Commons Attribution-ShareAlike 3.0 Unported License.
 $Comp
-L CONN_01X01 POWER+1
+L CONN_01X01 POWER+
 U 1 1 589D4FBD
 P 4800 2500
-F 0 "POWER+1" H 4875 2500 50  0000 L CNN
+F 0 "POWER+" H 4875 2500 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2500 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2500 50  0001 C CNN
@@ -429,10 +429,10 @@ F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 BED+1
+L CONN_01X01 BED+
 U 1 1 589D511D
 P 4800 2600
-F 0 "BED+1" H 4875 2600 50  0000 L CNN
+F 0 "BED+" H 4875 2600 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2600 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2600 50  0001 C CNN
@@ -447,10 +447,10 @@ F 10 "NA" H 4800 2600 60  0001 C CNN "Parts_Per_Reel"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 BED-1
+L CONN_01X01 BED-
 U 1 1 589D51BD
 P 4800 2700
-F 0 "BED-1" H 4875 2700 50  0000 L CNN
+F 0 "BED-" H 4875 2700 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
 F 2 "MyLib:Keystone_4966" H 4800 2700 50  0001 C CNN
 F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2700 50  0001 C CNN
