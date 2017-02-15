@@ -1,4 +1,4 @@
-update=2/12/2017 12:36:50 PM
+update=2/14/2017 7:26:02 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -59,8 +59,6 @@ LibName29=valves
 LibName30=Logo-Digittle-Sqrt
 LibName31=CC-Logo
 LibName32=MyComp
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -71,3 +69,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
