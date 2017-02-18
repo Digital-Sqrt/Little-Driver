@@ -1,9 +1,9 @@
-### Module positions - created on 02/13/17 15:59:32 ###
+### Module positions - created on 02/17/17 21:40:07 ###
 ### Printed by Pcbnew version kicad 4.0.5
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref                Val              Package                           PosX       PosY       Rot  Side
-                                      LOGO_POS                       20.1500    23.1500  180.0000  bottom
+                                      LOGO_POS                       22.1700    22.2800  180.0000  bottom
 CN1                  Jumper_NC_Small  6pin_SMT_HEADER                 9.0000    23.0000  270.0000  top
 D3                   Led_Small        CREE_CLM1B_AKW_CUAVB253        23.0000    18.0000    0.0000  top
 OSHW_Mono_0.1_Scale  PENDING          OSHW_Mono_0.1_Scale            42.1500    20.4000    0.0000  top
