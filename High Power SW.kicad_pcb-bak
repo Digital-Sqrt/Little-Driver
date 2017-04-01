@@ -5,7 +5,7 @@
     (no_connects 14)
     (area 52.150001 22.45 166.676191 146.075)
     (thickness 1.6)
-    (drawings 25)
+    (drawings 28)
     (tracks 91)
     (zones 0)
     (modules 22)
@@ -20,13 +20,13 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
+    (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (38 B.Mask user)
+    (39 F.Mask user)
     (40 Dwgs.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
@@ -196,12 +196,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 58A7B3B8) (tstamp 58A30CD1)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 58E02162) (tstamp 58A30CD1)
     (at 74 105)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
     (attr virtual)
-    (fp_text reference "F1 " (at 67.5 38.5) (layer B.SilkS) hide
+    (fp_text reference "F1 " (at 136 85) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value "" (at 0 1.8) (layer B.Fab) hide
@@ -362,7 +362,7 @@
       (xy -3.142743 1.067479) (xy -2.939348 1.048203)) (layer B.SilkS) (width 0.01))
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58A7B398) (tstamp 582E5E55)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0215B) (tstamp 582E5E55)
     (at 80.1 117.9)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -371,7 +371,7 @@
     (fp_text reference R5 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 3.6K (at 62.4 20.1 180) (layer F.Fab) hide
+    (fp_text value 3.6K (at 128.9 72.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
@@ -391,7 +391,7 @@
     )
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58A7B390) (tstamp 581EA384)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E02158) (tstamp 581EA384)
     (at 98.6 107.9)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -400,7 +400,7 @@
     (fp_text reference R1 (at 4.41 -0.16) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1.0K (at 43.65 28.35) (layer F.Fab) hide
+    (fp_text value 1.0K (at 113.4 82.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
@@ -420,7 +420,7 @@
     )
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58A7B3C0) (tstamp 581EA38A)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E02165) (tstamp 581EA38A)
     (at 105.35 109.9)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -429,7 +429,7 @@
     (fp_text reference R2 (at 4.27 0.02) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1.8K (at 36.65 35.1) (layer F.Fab) hide
+    (fp_text value 1.8K (at 104.65 80.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
@@ -449,7 +449,7 @@
     )
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58A7B39D) (tstamp 581EA396)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E0215D) (tstamp 581EA396)
     (at 73.1 117.9 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -458,7 +458,7 @@
     (fp_text reference R4 (at 4.35 -0.17 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1.69K (at -69.9 -22.35 360) (layer F.Fab) hide
+    (fp_text value 1.69K (at -135.9 -71.1 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
@@ -478,12 +478,12 @@
     )
   )
 
-  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 58A7B3B6) (tstamp 582B442D)
+  (module Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer F.Cu) (tedit 58E02160) (tstamp 582B442D)
     (at 74 105)
     (descr "Circular Fiducial, 1mm bare copper top; 2.54mm keepout")
     (tags marker)
     (attr virtual)
-    (fp_text reference "F1 " (at 68 37) (layer F.SilkS) hide
+    (fp_text reference "F1 " (at 136 85) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "" (at 0 -1.8) (layer F.Fab) hide
@@ -494,14 +494,14 @@
       (net 1 GND) (solder_mask_margin 0.77) (clearance 0.77))
   )
 
-  (module MyLib:SOP-4 (layer F.Cu) (tedit 58A7B376) (tstamp 581EA3A3)
+  (module MyLib:SOP-4 (layer F.Cu) (tedit 58E02153) (tstamp 581EA3A3)
     (at 85.1 113.9 270)
     (path /581E947F)
     (attr smd)
     (fp_text reference U1 (at -1.73 -2.42 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value PS2801C-1-A (at 18.85 -60.9 360) (layer F.Fab) hide
+    (fp_text value PS2801C-1-A (at 76.1 -125.9 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.05 -1.45) (end -4.05 1.45) (layer F.CrtYd) (width 0.05))
@@ -523,14 +523,14 @@
       (net 2 +BATT))
   )
 
-  (module MyLib:6pin_SMT_HEADER (layer F.Cu) (tedit 58A7B362) (tstamp 5842573B)
+  (module MyLib:6pin_SMT_HEADER (layer F.Cu) (tedit 58E02149) (tstamp 5842573B)
     (at 76.1 111.9 270)
     (path /582FB0BD)
     (attr smd)
     (fp_text reference CN1 (at -3 6 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Jumper_NC_Small (at 13.1 -70.9 360) (layer F.Fab) hide
+    (fp_text value Jumper_NC_Small (at 78.1 -133.9 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.81 -3.81) (end -3.81 3.81) (layer F.CrtYd) (width 0.15))
@@ -555,7 +555,7 @@
       (net 8 "Net-(CN1-Pad2)"))
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58A7B389) (tstamp 58425769)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 58E02155) (tstamp 58425769)
     (at 82.1 112.9 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -564,7 +564,7 @@
     (fp_text reference R3 (at -3.99 0.01 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 300 (at 21.6 -59.9 360) (layer F.Fab) hide
+    (fp_text value 300 (at 77.1 -127.9 360) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
@@ -588,14 +588,14 @@
     )
   )
 
-  (module MyLib:CREE_CLM1B_AKW_CUAVB253 (layer F.Cu) (tedit 58A7B36F) (tstamp 582E5E11)
+  (module MyLib:CREE_CLM1B_AKW_CUAVB253 (layer F.Cu) (tedit 58E02151) (tstamp 582E5E11)
     (at 90.1 116.9)
     (path /582E54FD)
     (attr smd)
     (fp_text reference D3 (at -0.31 -2.34) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Led_Small (at 54.15 13.85 180) (layer F.Fab) hide
+    (fp_text value Led_Small (at 120.9 73.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.667 -1.651) (end 2.794 -1.651) (layer F.CrtYd) (width 0.15))
@@ -611,7 +611,7 @@
       (net 4 "Net-(D3-Pad2)"))
   )
 
-  (module TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2 (layer F.Cu) (tedit 58A7B34A) (tstamp 58A019A0)
+  (module TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2 (layer F.Cu) (tedit 58E02168) (tstamp 58A019A0)
     (at 99.6 113.9 180)
     (descr "LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf")
     (tags "LFPAK SOT669 Thermical Vias Power-SO8")
@@ -620,7 +620,7 @@
     (fp_text reference Q1 (at 6.1 4.15 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value PSMN5R6-60YLX (at -46.9 -5.1 180) (layer F.Fab) hide
+    (fp_text value PSMN5R6-60YLX (at -110.4 -75.1 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.31 -2.6) (end -2.16 -2.6) (layer F.SilkS) (width 0.12))
@@ -717,10 +717,10 @@
     )
   )
 
-  (module kicad:OSHW_Mono_0.1_Scale (layer F.Cu) (tedit 58AE684F) (tstamp 58A09EDB)
+  (module kicad:OSHW_Mono_0.1_Scale (layer F.Cu) (tedit 58E0216D) (tstamp 58A09EDB)
     (at 107.8 113.4)
     (attr smd)
-    (fp_text reference OSHW_Mono_0.1_Scale (at 43.75 -0.25) (layer F.SilkS) hide
+    (fp_text reference OSHW_Mono_0.1_Scale (at 102.2 76.6) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value US000062 (at 0 1.8) (layer F.SilkS)
@@ -789,13 +789,13 @@
       (xy 0.888451 0.637184) (xy 0.740946 -0.350373)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58A7B368) (tstamp 589D50FC)
+  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58E0214E) (tstamp 589D50FC)
     (at 74.1 125.9 90)
     (path /589D4FBD)
     (fp_text reference POWER+ (at -7.5 0.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at -3.1 71.15 180) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at -64.1 136.9 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 6.6 5.2) (end -6.6 5.2) (layer F.SilkS) (width 0.15))
@@ -816,13 +816,13 @@
       (net 2 +BATT))
   )
 
-  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58A7B355) (tstamp 589D50D6)
+  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58E02171) (tstamp 589D50D6)
     (at 96.6 125.9 90)
     (path /589D51BD)
     (fp_text reference BED- (at -7.5 0.75 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at 2.65 48.4 180) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at -63.1 113.4 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 6.6 5.2) (end -6.6 5.2) (layer F.SilkS) (width 0.15))
@@ -843,13 +843,13 @@
       (net 6 "Net-(BED-1-Pad1)"))
   )
 
-  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58A7B365) (tstamp 589D50D0)
+  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58E0214C) (tstamp 589D50D0)
     (at 85.35 125.9 90)
     (path /589D511D)
     (fp_text reference BED+ (at -7.5 0.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at -1.35 59.9 180) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at -64.1 123.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 6.6 5.2) (end -6.6 5.2) (layer F.SilkS) (width 0.15))
@@ -870,13 +870,13 @@
       (net 2 +BATT))
   )
 
-  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58A7B351) (tstamp 589D5102)
+  (module MyLib:Keystone_terminal (layer F.Cu) (tedit 58E02175) (tstamp 589D5102)
     (at 107.85 125.9 90)
     (path /58101E9B)
     (fp_text reference POWER- (at -7.5 0.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X01 (at 4.9 37.4 180) (layer F.Fab) hide
+    (fp_text value CONN_01X01 (at -63.1 104.15 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 6.6 5.2) (end -6.6 5.2) (layer F.SilkS) (width 0.15))
@@ -897,15 +897,15 @@
       (net 1 GND))
   )
 
-  (module Symbols:OSHW-Symbol_6.7x6mm_SilkScreen (layer B.Cu) (tedit 58AE6887) (tstamp 58AE682F)
+  (module Symbols:OSHW-Symbol_6.7x6mm_SilkScreen (layer B.Cu) (tedit 58E0217A) (tstamp 58AE682F)
     (at 107.8 114.2 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
-    (fp_text reference REF*** (at -36 -3.6 180) (layer B.SilkS) hide
+    (fp_text reference REF*** (at -98.2 -74.8 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value OSHW-Symbol_6.7x6mm_SilkScreen (at -45.2 -1.6 180) (layer B.Fab) hide
+    (fp_text value OSHW-Symbol_6.7x6mm_SilkScreen (at -101.2 -74.8 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_poly (pts (xy 0.555814 2.531069) (xy 0.639635 2.086445) (xy 0.94892 1.958947) (xy 1.258206 1.831449)
@@ -995,6 +995,11 @@
       (xy 0.555814 2.531069)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "Clearance Hole for M3" (at 141 92) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 126 92) (end 128 92) (angle 90) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 112 106) (end 126 92) (angle 90) (layer Dwgs.User) (width 0.2))
   (dimension 36 (width 0.3) (layer Dwgs.User)
     (gr_text "36.000 mm" (at 58.65 121 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
