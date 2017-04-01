@@ -329,13 +329,13 @@ U 1 1 58101E9B
 P 4800 2400
 F 0 "POWER-" H 4875 2400 50  0000 L CNN
 F 1 "CONN_01X01" V 4900 2400 50  0001 C CNN
-F 2 "MyLib:Keystone_4966" H 4800 2400 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2400 50  0001 C CNN
-F 4 "4966" H 4800 2400 60  0001 C CNN "mfr_num"
+F 2 "MyLib:Keystone_terminal" H 4800 2400 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2400 50  0001 C CNN
+F 4 "8197" H 4800 2400 60  0001 C CNN "mfr_num"
 F 5 "Keystone Electronics" H 4800 2400 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2400 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2400 60  0001 C CNN "Supplyer_Link"
-F 8 "36-4966-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
+F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
 F 9 "NA" H 4800 2400 60  0001 C CNN "Reel_Part_No"
 F 10 "NA" H 4800 2400 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2400
@@ -411,60 +411,6 @@ $EndComp
 Text Notes 575  4225 0    60   ~ 0
 Little Driver is licensed under a\nCreative Commons Attribution-ShareAlike 3.0 Unported License.
 $Comp
-L CONN_01X01 POWER+
-U 1 1 589D4FBD
-P 4800 2500
-F 0 "POWER+" H 4875 2500 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
-F 2 "MyLib:Keystone_4966" H 4800 2500 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2500 50  0001 C CNN
-F 4 "4966" H 4800 2500 60  0001 C CNN "mfr_num"
-F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2500 60  0001 C CNN "Supplyer_Link"
-F 8 "36-4966-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2500 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
-	1    4800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 BED+
-U 1 1 589D511D
-P 4800 2600
-F 0 "BED+" H 4875 2600 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
-F 2 "MyLib:Keystone_4966" H 4800 2600 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2600 50  0001 C CNN
-F 4 "4966" H 4800 2600 60  0001 C CNN "mfr_num"
-F 5 "Keystone Electronics" H 4800 2600 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2600 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2600 60  0001 C CNN "Supplyer_Link"
-F 8 "36-4966-ND" H 4800 2600 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2600 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2600 60  0001 C CNN "Parts_Per_Reel"
-	1    4800 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 BED-
-U 1 1 589D51BD
-P 4800 2700
-F 0 "BED-" H 4875 2700 50  0000 L CNN
-F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
-F 2 "MyLib:Keystone_4966" H 4800 2700 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=621" H 4800 2700 50  0001 C CNN
-F 4 "4966" H 4800 2700 60  0001 C CNN "mfr_num"
-F 5 "Keystone Electronics" H 4800 2700 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 4800 2700 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/keystone-electronics/4966/36-4966-ND/303924" H 4800 2700 60  0001 C CNN "Supplyer_Link"
-F 8 "36-4966-ND" H 4800 2700 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2700 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2700 60  0001 C CNN "Parts_Per_Reel"
-	1    4800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L PSMN5R6-60YLX Q1
 U 1 1 58A00EB2
 P 3600 2925
@@ -495,4 +441,58 @@ Wire Wire Line
 	3700 3200 3900 3200
 Connection ~ 3800 3200
 Connection ~ 3700 3200
+$Comp
+L CONN_01X01 POWER+
+U 1 1 58A214B6
+P 4800 2500
+F 0 "POWER+" H 4875 2500 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2500 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2500 50  0001 C CNN
+F 4 "8197" H 4800 2500 60  0001 C CNN "mfr_num"
+F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2500 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
+	1    4800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 BED+
+U 1 1 58A2156D
+P 4800 2600
+F 0 "BED+" H 4875 2600 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2600 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2600 50  0001 C CNN
+F 4 "8197" H 4800 2600 60  0001 C CNN "mfr_num"
+F 5 "Keystone Electronics" H 4800 2600 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2600 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2600 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2600 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2600 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2600 60  0001 C CNN "Parts_Per_Reel"
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 BED-
+U 1 1 58A21735
+P 4800 2700
+F 0 "BED-" H 4875 2700 50  0000 L CNN
+F 1 "CONN_01X01" V 4900 2700 50  0001 C CNN
+F 2 "MyLib:Keystone_terminal" H 4800 2700 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1534" H 4800 2700 50  0001 C CNN
+F 4 "8197" H 4800 2700 60  0001 C CNN "mfr_num"
+F 5 "Keystone Electronics" H 4800 2700 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 2700 60  0001 C CNN "Supplyer"
+F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2700 60  0001 C CNN "Supplyer_Link"
+F 8 "36-8197-ND" H 4800 2700 60  0001 C CNN "Supplyer_Part_No"
+F 9 "NA" H 4800 2700 60  0001 C CNN "Reel_Part_No"
+F 10 "NA" H 4800 2700 60  0001 C CNN "Parts_Per_Reel"
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
