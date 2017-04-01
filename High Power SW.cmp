@@ -1,50 +1,18 @@
-Cmp-Mod V01 Created by PcbNew   date = 12/3/2016 6:28:29 PM
+Cmp-Mod V01 Created by PcbNew   date = 4/1/2017 3:21:59 PM
 
 BeginCmp
-TimeStamp = 581EA37E
-Path = /58423900
-Reference = Q1;
-ValeurCmp = FDD9407_F085;
-IdModule  = MyLib:TO-263-2Lead_(Larg_Heat_Sink);
-EndCmp
-
-BeginCmp
-TimeStamp = 582E8E56
+TimeStamp = 58DF0ED0
 Path = 
 Reference = [NoRef];
-ValeurCmp = LOGO;
-IdModule  = MyLib:LOGO_POS;
+ValeurCmp = [NoVal];
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
 EndCmp
 
 BeginCmp
-TimeStamp = 582E5E55
-Path = /58427F19
-Reference = R5;
-ValeurCmp = 1.8K;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = 581EA36E
-Path = /58101F36
-Reference = POWER-;
-ValeurCmp = CONN_01X01;
-IdModule  = MyLib:Keystone_terminal;
-EndCmp
-
-BeginCmp
-TimeStamp = 581EA344
-Path = /5810117A
-Reference = POWER+;
-ValeurCmp = CONN_01X01;
-IdModule  = MyLib:Keystone_terminal;
-EndCmp
-
-BeginCmp
-TimeStamp = 582270F6
+TimeStamp = 58DF0E9D
 Path = 
 Reference = [NoRef];
-ValeurCmp = MountingHole_3.2mm_M3;
+ValeurCmp = [NoVal];
 IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
 EndCmp
 
@@ -52,15 +20,47 @@ BeginCmp
 TimeStamp = 580BE1FF
 Path = 
 Reference = [NoRef];
-ValeurCmp = MountingHole_3.2mm_M3;
+ValeurCmp = [NoVal];
 IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 582270F6
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 58A30CD1
+Path = 
+Reference = F1 ;
+ValeurCmp = [NoVal];
+IdModule  = Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
+EndCmp
+
+BeginCmp
+TimeStamp = 582E8E56
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = MyLib:LOGO_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = 582E5E55
+Path = /58427F19
+Reference = R5;
+ValeurCmp = 3.6K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = 581EA384
 Path = /581EA32B
 Reference = R1;
-ValeurCmp = 604;
+ValeurCmp = 1.0K;
 IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
@@ -84,15 +84,7 @@ BeginCmp
 TimeStamp = 582B442D
 Path = 
 Reference = F1 ;
-ValeurCmp = Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
-IdModule  = Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
-EndCmp
-
-BeginCmp
-TimeStamp = 582B4464
-Path = 
-Reference = F2 ;
-ValeurCmp = Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
+ValeurCmp = [NoVal];
 IdModule  = Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop;
 EndCmp
 
@@ -102,30 +94,6 @@ Path = /581E947F
 Reference = U1;
 ValeurCmp = PS2801C-1-A;
 IdModule  = MyLib:SOP-4;
-EndCmp
-
-BeginCmp
-TimeStamp = 582E5E11
-Path = /582E54FD
-Reference = D3;
-ValeurCmp = Led_Small;
-IdModule  = MyLib:CREE_LED_CLM3C-AKW-CUBVA353;
-EndCmp
-
-BeginCmp
-TimeStamp = 5842571F
-Path = /58101EEA
-Reference = BED+;
-ValeurCmp = CONN_01X01;
-IdModule  = MyLib:Keystone_terminal;
-EndCmp
-
-BeginCmp
-TimeStamp = 58425729
-Path = /58101F36
-Reference = BED-;
-ValeurCmp = CONN_01X01;
-IdModule  = MyLib:Keystone_terminal;
 EndCmp
 
 BeginCmp
@@ -142,6 +110,70 @@ Path = /5817E52A
 Reference = R3;
 ValeurCmp = 300;
 IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 582E5E11
+Path = /582E54FD
+Reference = D3;
+ValeurCmp = Led_Small;
+IdModule  = MyLib:CREE_CLM1B_AKW_CUAVB253;
+EndCmp
+
+BeginCmp
+TimeStamp = 58A019A0
+Path = /58A00EB2
+Reference = Q1;
+ValeurCmp = PSMN5R6-60YLX;
+IdModule  = TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 58A09EDB
+Path = 
+Reference = OSHW_Mono_0.1_Scale;
+ValeurCmp = US000062;
+IdModule  = kicad:OSHW_Mono_0.1_Scale;
+EndCmp
+
+BeginCmp
+TimeStamp = 589D50FC
+Path = /589D4FBD
+Reference = POWER+;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 589D50D6
+Path = /589D51BD
+Reference = BED-;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 589D50D0
+Path = /589D511D
+Reference = BED+;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 589D5102
+Path = /58101E9B
+Reference = POWER-;
+ValeurCmp = CONN_01X01;
+IdModule  = MyLib:Keystone_terminal;
+EndCmp
+
+BeginCmp
+TimeStamp = 58AE682F
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Symbol_6.7x6mm_SilkScreen;
+IdModule  = Symbols:OSHW-Symbol_6.7x6mm_SilkScreen;
 EndCmp
 
 EndListe

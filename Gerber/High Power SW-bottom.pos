@@ -1,0 +1,7 @@
+### Module positions - created on 04/01/17 15:20:57 ###
+### Printed by Pcbnew version kicad 4.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+                    LOGO_POS            22.2700    26.3800  180.0000  bottom
+## End

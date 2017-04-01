@@ -1,0 +1,16 @@
+### Module positions - created on 04/01/17 15:20:57 ###
+### Printed by Pcbnew version kicad 4.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref                Val              Package                           PosX       PosY       Rot  Side
+CN1                  Jumper_NC_Small  6pin_SMT_HEADER                 9.1000    27.1000  270.0000  top
+D3                   Led_Small        CREE_CLM1B_AKW_CUAVB253        23.1000    22.1000    0.0000  top
+OSHW_Mono_0.1_Scale  US000062         OSHW_Mono_0.1_Scale            40.8000    25.6000    0.0000  top
+Q1                   PSMN5R6-60YLX    SOT-669_LFPAK_ThermalVias-2    32.6000    25.1000  180.0000  top
+R1                   1.0K             R_1206_HandSoldering           31.6000    31.1000    0.0000  top
+R2                   1.8K             R_1206_HandSoldering           38.3500    29.1000    0.0000  top
+R3                   300              R_1206_HandSoldering           15.1000    26.1000  270.0000  top
+R4                   1.69K            R_1206_HandSoldering            6.1000    21.1000  180.0000  top
+R5                   3.6K             R_1206_HandSoldering           13.1000    21.1000    0.0000  top
+U1                   PS2801C-1-A      SOP-4                          18.1000    25.1000  270.0000  top
+## End
