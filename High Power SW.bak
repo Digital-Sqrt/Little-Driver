@@ -84,32 +84,33 @@ F 0 "R3" V 3980 4450 50  0000 C CNN
 F 1 "300" V 3825 4450 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3830 4450 50  0001 C CNN
 F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3900 4450 50  0001 C CNN
-F 4 "RC1206JR-07300RL" H 3900 4450 60  0001 C CNN "mfr_num"
-F 5 "Yageo" H 3900 4450 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 3900 4450 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206JR-07300RL/311-300ERCT-ND/732222" H 3900 4450 60  0001 C CNN "Supplyer_Link"
-F 8 "311-300ERCT-ND" H 3900 4450 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-300ERTR-ND" H 3900 4450 60  0001 C CNN "Reel_Part_No"
-F 10 "5000" H 3900 4450 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".1" H 3900 4450 60  0001 C CNN "Cost"
+F 4 "Digi-Key" H 3900 4450 60  0001 C CNN "Supplier"
+F 5 "None" H 3900 4450 60  0001 C CNN "Supplier_Part_No"
+F 6 "Yageo" H 3900 4450 60  0001 C CNN "Manufacturer"
+F 7 "RC1206JR-07300RL" H 3900 4450 60  0001 C CNN "mfr_num"
+F 8 "Digi-Key" H 3900 4450 60  0001 C CNN "Supplyer"
+F 9 "http://www.digikey.com/product-detail/en/yageo/RC1206JR-07300RL/311-300ERCT-ND/732222" H 3900 4450 60  0001 C CNN "Supplyer_Link"
+F 10 "311-300ERCT-ND" H 3900 4450 60  0001 C CNN "Supplyer_Part_No"
 	1    3900 4450
 	0    -1   1    0   
 $EndComp
 $Comp
-L LTV-356T U1
+L TLP290 U1
 U 1 1 581E947F
 P 5450 4350
 F 0 "U1" H 5275 4125 50  0000 L CNN
-F 1 "PS2801C-1-A" H 5100 4550 50  0000 L CNN
+F 1 "TLP182" H 5325 4575 50  0000 L CNN
 F 2 "MyLib:SOP-4" H 5250 4150 50  0001 L CIN
-F 3 "http://www.cel.com/pdf/datasheets/PS2801C-1,PS2801C-4.pdf" H 5450 4350 50  0001 L CNN
-F 4 "PS2801C-1-A" H 5450 4350 60  0001 C CNN "mfr_num"
-F 5 "CEL" H 5450 4350 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 5450 4350 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 5450 4350 60  0001 C CNN "Supplyer_Link"
-F 8 "PS2801C-1-A-ND" H 5450 4350 60  0001 C CNN "Supplyer_Part_No"
-F 9 "PS2801C-1-F3-ATR-ND" H 5450 4350 60  0001 C CNN "Reel_Part_No"
-F 10 "3500" H 5450 4350 60  0001 C CNN "Parts_Per_Reel"
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14414&prodName=TLP182" H 5450 4350 50  0001 L CNN
+F 4 "Digi-Key" H 5450 4350 60  0001 C CNN "Supplier"
+F 5 "None" H 5450 4350 60  0001 C CNN "Supplier_Part_No"
+F 6 "Toshiba Semiconductor and Storage" H 5450 4350 60  0001 C CNN "Manufacturer"
+F 7 "TLP182(BL-TPL,E" H 5450 4350 60  0001 C CNN "mfr_num"
+F 8 "Digi-Key" H 5450 4350 60  0001 C CNN "Supplyer"
+F 9 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/TLP182(BL-TPL,E/TLP182(BL-TPLECT-ND/4562905" H 5450 4350 60  0001 C CNN "Supplyer_Link"
+F 10 "TLP182(BL-TPLECT-ND" H 5450 4350 60  0001 C CNN "Supplyer_Part_No"
+F 11 "TLP182(BL-TPLETR-ND" H 5450 4350 60  0001 C CNN "Reel_Part_No"
+F 12 "3000" H 5450 4350 60  0001 C CNN "Parts_Per_Reel"
 	1    5450 4350
 	1    0    0    -1  
 $EndComp
@@ -197,7 +198,7 @@ F 10 "None" H 4525 4700 60  0001 C CNN "Parts_Per_Reel"
 	-1   0    0    1   
 $EndComp
 Text Notes 2625 2250 0    60   ~ 0
-Power - 10v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remote if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through bed terminals.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
+Power - 10v - 30v\nJP1 - Install if input trigger is between 2.8v - 15v, 15v is the Absolut Max\nJP1 - Remote if input trigger is between 10v - 30v, 30v is the Absolut Max\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through bed terminals.  Q1 is capable of 100A \nat 25 deg C but the power terminals are rated for 30A per pin.\n\nMax size heated bed\n     30v - 900Watts (1.0 Ohms)\n     24v - 720Watts (0.8 Ohms)\n     12v - 360Watts (0.4 Ohms)
 $Comp
 L CONN_01X02 FAN
 U 1 1 58410C7F
@@ -418,13 +419,15 @@ F 0 "Q1" H 6475 4925 50  0000 L CNN
 F 1 "PSMN5R6-60YLX" H 6475 4825 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2" H 6475 4975 50  0001 C CNN
 F 3 "http://cache.nxp.com/documents/data_sheet/PSMN5R6-60YL.pdf" H 6275 4875 50  0001 C CNN
-F 4 "PSMN5R6-60YLX" H 6275 4875 60  0001 C CNN "mfr_num"
-F 5 "Nexperia USA Inc." H 6275 4875 60  0001 C CNN "Manufacturer"
-F 6 "Digi-Key" H 6275 4875 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN5R6-60YLX/568-13047-1-ND/6167607" H 6275 4875 60  0001 C CNN "Supplyer_Link"
-F 8 "568-13047-1-ND" H 6275 4875 60  0001 C CNN "Supplyer_Part_No"
-F 9 "568-13047-2-ND" H 6275 4875 60  0001 C CNN "Reel_Part_No"
-F 10 "1500" H 6275 4875 60  0001 C CNN "Parts_Per_Reel"
+F 4 "Digi-Key" H 6275 4875 60  0001 C CNN "Supplier"
+F 5 "None" H 6275 4875 60  0001 C CNN "Supplier_Part_No"
+F 6 "Nexperia USA Inc." H 6275 4875 60  0001 C CNN "Manufacturer"
+F 7 "PSMN5R6-60YLX" H 6275 4875 60  0001 C CNN "mfr_num"
+F 8 "Digi-Key" H 6275 4875 60  0001 C CNN "Supplyer"
+F 9 "http://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN5R6-60YLX/568-13047-1-ND/6167607" H 6275 4875 60  0001 C CNN "Supplyer_Link"
+F 10 "568-13047-1-ND" H 6275 4875 60  0001 C CNN "Supplyer_Part_No"
+F 11 "568-13047-2-ND" H 6275 4875 60  0001 C CNN "Reel_Part_No"
+F 12 "1500" H 6275 4875 60  0001 C CNN "Parts_Per_Reel"
 	1    6275 4875
 	1    0    0    -1  
 $EndComp
