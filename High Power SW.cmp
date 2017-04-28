@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = 4/1/2017 3:21:59 PM
+Cmp-Mod V01 Created by PcbNew   date = 4/27/2017 6:54:52 AM
+
+BeginCmp
+TimeStamp = 5842573B
+Path = /582FB0BD
+Reference = CN1;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = MyLib:6pin_SMT_HEADER;
+EndCmp
 
 BeginCmp
 TimeStamp = 58DF0ED0
@@ -97,14 +105,6 @@ IdModule  = MyLib:SOP-4;
 EndCmp
 
 BeginCmp
-TimeStamp = 5842573B
-Path = /582FB0BD
-Reference = CN1;
-ValeurCmp = Jumper_NC_Small;
-IdModule  = MyLib:6pin_SMT_HEADER;
-EndCmp
-
-BeginCmp
 TimeStamp = 58425769
 Path = /5817E52A
 Reference = R3;
@@ -126,14 +126,6 @@ Path = /58A00EB2
 Reference = Q1;
 ValeurCmp = PSMN5R6-60YLX;
 IdModule  = TO_SOT_Packages_SMD:SOT-669_LFPAK_ThermalVias-2;
-EndCmp
-
-BeginCmp
-TimeStamp = 58A09EDB
-Path = 
-Reference = OSHW_Mono_0.1_Scale;
-ValeurCmp = US000062;
-IdModule  = kicad:OSHW_Mono_0.1_Scale;
 EndCmp
 
 BeginCmp
