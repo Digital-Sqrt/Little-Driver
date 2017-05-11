@@ -59,9 +59,6 @@ F 5 "Yageo" H 1850 2500 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 1850 2500 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 1850 2500 60  0001 C CNN "Supplyer_Link"
 F 8 "311-1.69KFRCT-ND" H 1850 2500 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-1.69KFRTR-ND" H 1850 2500 60  0001 C CNN "Reel_Part_No"
-F 10 "5000" H 1850 2500 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".1" H 1850 2500 60  0001 C CNN "Cost"
 	1    1850 2500
 	0    -1   1    0   
 $EndComp
@@ -89,9 +86,6 @@ F 5 "Yageo" H 1225 2500 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 1225 2500 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206JR-07300RL/311-300ERCT-ND/732222" H 1225 2500 60  0001 C CNN "Supplyer_Link"
 F 8 "311-300ERCT-ND" H 1225 2500 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-300ERTR-ND" H 1225 2500 60  0001 C CNN "Reel_Part_No"
-F 10 "5000" H 1225 2500 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".1" H 1225 2500 60  0001 C CNN "Cost"
 	1    1225 2500
 	0    -1   1    0   
 $EndComp
@@ -108,8 +102,6 @@ F 5 "CEL" H 2775 2400 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 2775 2400 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 2775 2400 60  0001 C CNN "Supplyer_Link"
 F 8 "PS2801C-1-A-ND" H 2775 2400 60  0001 C CNN "Supplyer_Part_No"
-F 9 "PS2801C-1-F3-ATR-ND" H 2775 2400 60  0001 C CNN "Reel_Part_No"
-F 10 "3500" H 2775 2400 60  0001 C CNN "Parts_Per_Reel"
 	1    2775 2400
 	1    0    0    -1  
 $EndComp
@@ -137,9 +129,6 @@ F 5 "Yageo" H 3100 2725 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3100 2725 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 3100 2725 60  0001 C CNN "Supplyer_Link"
 F 8 "311-1.00KFRCT-ND" H 3100 2725 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-1.00KFRTR-ND" H 3100 2725 60  0001 C CNN "Reel_Part_No"
-F 10 "5000" H 3100 2725 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".1" H 3100 2725 60  0001 C CNN "Cost"
 	1    3100 2725
 	-1   0    0    -1  
 $EndComp
@@ -156,8 +145,6 @@ F 5 "CREE" H 3700 2550 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3700 2550 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-search/en?keywords=CLM1B-AKW-CUAVB253CT-ND" H 3700 2550 60  0001 C CNN "Supplyer_Link"
 F 8 "CLM1B-AKW-CUAVB253CT-ND" H 3700 2550 60  0001 C CNN "Supplyer_Part_No"
-F 9 "CLM1B-AKW-CUAVB253TR-ND" H 3700 2550 60  0001 C CNN "Reel_Part_No"
-F 10 "2500" H 3700 2550 60  0001 C CNN "Parts_Per_Reel"
 	1    3700 2550
 	0    -1   -1   0   
 $EndComp
@@ -174,7 +161,6 @@ F 5 "Molex, LLC" H 825 2350 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 825 2350 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-detail/en/molex-llc/0015912060/WM17449-ND/614765" H 825 2350 60  0001 C CNN "Supplyer_Link"
 F 8 "WM17449-ND" H 825 2350 60  0001 C CNN "Supplyer_Part_No"
-F 9 "6600" H 825 2350 60  0001 C CNN "Parts_Per_Reel"
 	1    825  2350
 	-1   0    0    -1  
 $EndComp
@@ -191,8 +177,6 @@ F 5 "3M" H 1850 2750 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 1850 2750 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-detail/en/3m/969102-0000-DA/3M9580-ND/2071621" H 1850 2750 60  0001 C CNN "Supplyer_Link"
 F 8 "3M9580-ND" H 1850 2750 60  0001 C CNN "Supplyer_Part_No"
-F 9 "None" H 1850 2750 60  0001 C CNN "Reel_Part_No"
-F 10 "None" H 1850 2750 60  0001 C CNN "Parts_Per_Reel"
 	1    1850 2750
 	-1   0    0    1   
 $EndComp
@@ -211,8 +195,6 @@ F 5 "-NA-" H 825 3025 60  0001 C CNN "Manufacturer"
 F 6 "-NA-" H 825 3025 60  0001 C CNN "Supplyer"
 F 7 "-NA-" H 825 3025 60  0001 C CNN "Supplyer_Link"
 F 8 "-NA-" H 825 3025 60  0001 C CNN "Supplyer_Part_No"
-F 9 "-NA-" H 825 3025 60  0001 C CNN "Reel_Part_No"
-F 10 "-NA-" H 825 3025 60  0001 C CNN "Parts_Per_Reel"
 	1    825  3025
 	-1   0    0    -1  
 $EndComp
@@ -251,9 +233,6 @@ F 5 "Yageo" H 3100 3125 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3100 3125 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-07249RL/311-249FRCT-ND/731664" H 3100 3125 60  0001 C CNN "Supplyer_Link"
 F 8 "311-1.80KFRCT-ND" H 3100 3125 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-1.80FRTR-ND" H 3100 3125 60  0001 C CNN "Reel_Part_No"
-F 10 "5000" H 3100 3125 60  0001 C CNN "Parts_Per_Reel"
-F 11 ".1" H 3100 3125 60  0001 C CNN "Cost"
 	1    3100 3125
 	-1   0    0    -1  
 $EndComp
@@ -314,8 +293,6 @@ F 5 "Yageo" H 3700 2250 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3700 2250 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/products/en?keywords=311-3.60KFRCT-ND" H 3700 2250 60  0001 C CNN "Supplyer_Link"
 F 8 "311-3.60KFRCT-ND" H 3700 2250 60  0001 C CNN "Supplyer_Part_No"
-F 9 "311-3.60FRTR-ND" H 3700 2250 60  0001 C CNN "Reel_Part_No"
-F 10 "5000" H 3700 2250 60  0001 C CNN "Parts_Per_Reel"
 	1    3700 2250
 	-1   0    0    -1  
 $EndComp
@@ -336,8 +313,6 @@ F 5 "Keystone Electronics" H 4800 2400 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2400 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Link"
 F 8 "36-8197-ND" H 4800 2400 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2400 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2400 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2400
 	1    0    0    -1  
 $EndComp
@@ -414,7 +389,7 @@ U 1 1 58A00EB2
 P 3600 2925
 F 0 "Q1" H 3800 2975 50  0000 L CNN
 F 1 "IRFR7540TRPBF" H 3800 2875 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-263-3Lead" H 3800 3025 50  0001 C CNN
+F 2 "MyLib:TO-263-2Lead_(Small_Heat_Sink)" H 3800 3025 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/irfr7540pbf.pdf?fileId=5546d462533600a401535635b06a211c" H 3600 2925 50  0001 C CNN
 F 4 "IRFR7540TRPBF" H 3600 2925 60  0001 C CNN "mfr_num"
 F 5 "Infineon Technologies" H 3600 2925 60  0001 C CNN "Manufacturer"
@@ -442,8 +417,6 @@ F 5 "Keystone Electronics" H 4800 2500 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2500 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Link"
 F 8 "36-8197-ND" H 4800 2500 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2500 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2500 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2500
 	1    0    0    -1  
 $EndComp
@@ -460,8 +433,6 @@ F 5 "Keystone Electronics" H 4800 2600 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2600 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2600 60  0001 C CNN "Supplyer_Link"
 F 8 "36-8197-ND" H 4800 2600 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2600 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2600 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2600
 	1    0    0    -1  
 $EndComp
@@ -478,8 +449,6 @@ F 5 "Keystone Electronics" H 4800 2700 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 4800 2700 60  0001 C CNN "Supplyer"
 F 7 "http://www.digikey.com/products/en?keywords=36-8197-ND" H 4800 2700 60  0001 C CNN "Supplyer_Link"
 F 8 "36-8197-ND" H 4800 2700 60  0001 C CNN "Supplyer_Part_No"
-F 9 "NA" H 4800 2700 60  0001 C CNN "Reel_Part_No"
-F 10 "NA" H 4800 2700 60  0001 C CNN "Parts_Per_Reel"
 	1    4800 2700
 	1    0    0    -1  
 $EndComp
