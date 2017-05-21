@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Little Driver Board"
 Date "2016-11-26"
-Rev "1.8"
+Rev "1.9"
 Comp ""
 Comment1 ""
 Comment2 ""
