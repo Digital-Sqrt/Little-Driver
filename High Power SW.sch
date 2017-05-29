@@ -393,7 +393,7 @@ F 3 "http://www.infineon.com/dgdl/irfr7540pbf.pdf?fileId=5546d462533600a40153563
 F 4 "IRFR7540TRPBF" H 3600 2925 60  0001 C CNN "mfr_num"
 F 5 "Infineon Technologies" H 3600 2925 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3600 2925 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-detail/en/nexperia-usa-inc/PSMN5R6-60YLX/568-13047-1-ND/6167607" H 3600 2925 60  0001 C CNN "Supplyer_Link"
+F 7 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFR7540TRPBF/IRFR7540TRPBFCT-ND/4867611" H 3600 2925 60  0001 C CNN "Supplyer_Link"
 F 8 "IRFR7540TRPBFCT-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
 	1    3600 2925
 	1    0    0    -1  
