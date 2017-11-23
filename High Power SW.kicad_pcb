@@ -3,7 +3,7 @@
   (general
     (links 75)
     (no_connects 6)
-    (area 53.1 22.45 272.405276 205.733371)
+    (area -67.3698 20.266628 272.405276 196.895276)
     (thickness 1.6)
     (drawings 19)
     (tracks 83)
@@ -919,7 +919,7 @@
   (gr_text + (at 72 112.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Power - 10v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through Q1.  Q1 is capable of 100A at\n25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900 Watts (1 Ohms)\n     24v - 720 Watts (0.8 Ohms)\n     12v - 360 Watts (0.4 Ohms)" (at 53.1 42.5) (layer Dwgs.User)
+  (gr_text "Power - 10v - 30v\nJP1 - Install if input trigger is between 3.0v - 5.5v\nJP1 - Remove if input trigger is between 10v - 30v\n\nThe input trigger is opticly isolated from the bed power supply.\n\n30A Max curent through Q1.  Q1 is capable of 195A at\n25 deg C but the power terminals are rated for 30A\n\nMax size heated bed\n     30v - 900 Watts (1 Ohms)\n     24v - 720 Watts (0.8 Ohms)\n     12v - 360 Watts (0.4 Ohms)" (at 53.1 42.5) (layer Dwgs.User)
     (effects (font (size 2 2) (thickness 0.1)) (justify left))
   )
   (gr_text "Little Driver" (at 74.25 108.25) (layer F.SilkS)
