@@ -387,14 +387,14 @@ L Q_NMOS_GDSD Q1
 U 1 1 58A00EB2
 P 3600 2925
 F 0 "Q1" H 3800 2975 50  0000 L CNN
-F 1 "IRFR7540TRPBF" H 3800 2875 50  0000 L CNN
+F 1 "IRLS3034TRLPBF" H 3800 2875 50  0000 L CNN
 F 2 "MyLib:TO-263-2Lead_(Small_Heat_Sink)" H 3800 3025 50  0001 C CNN
-F 3 "http://www.infineon.com/dgdl/irfr7540pbf.pdf?fileId=5546d462533600a401535635b06a211c" H 3600 2925 50  0001 C CNN
-F 4 "IRFR7540TRPBF" H 3600 2925 60  0001 C CNN "mfr_num"
+F 3 "https://www.infineon.com/dgdl/irls3034pbf.pdf?fileId=5546d462533600a401535671b7472707" H 3600 2925 50  0001 C CNN
+F 4 "IRLS3034TRLPBF" H 3600 2925 60  0001 C CNN "mfr_num"
 F 5 "Infineon Technologies" H 3600 2925 60  0001 C CNN "Manufacturer"
 F 6 "Digi-Key" H 3600 2925 60  0001 C CNN "Supplyer"
-F 7 "https://www.digikey.com/product-detail/en/infineon-technologies/IRFR7540TRPBF/IRFR7540TRPBFCT-ND/4867611" H 3600 2925 60  0001 C CNN "Supplyer_Link"
-F 8 "IRFR7540TRPBFCT-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
+F 7 "https://www.digikey.com/product-detail/en/infineon-technologies/IRLS3034TRLPBF/IRLS3034TRLPBFTR-ND/2096642" H 3600 2925 60  0001 C CNN "Supplyer_Link"
+F 8 "IRLS3034TRLPBFTR-ND" H 3600 2925 60  0001 C CNN "Supplyer_Part_No"
 	1    3600 2925
 	1    0    0    -1  
 $EndComp
