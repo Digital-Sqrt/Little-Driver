@@ -94,14 +94,15 @@ L TLP182 U1
 U 1 1 581E947F
 P 2775 2400
 F 0 "U1" H 2600 2175 50  0000 L CNN
-F 1 "PS2801C-1-A" H 2425 2600 50  0000 L CNN
+F 1 "TLP182(BL-TPL,E" H 2300 2625 50  0000 L CNN
 F 2 "MyLib:OP_Hybrid" H 2575 2200 50  0001 L CIN
-F 3 "http://www.cel.com/pdf/datasheets/PS2801C-1,PS2801C-4.pdf" H 2775 2400 50  0001 L CNN
-F 4 "PS2801C-1-A" H 2775 2400 60  0001 C CNN "mfr_num"
-F 5 "CEL" H 2775 2400 60  0001 C CNN "Manufacturer"
+F 3 "file:///C:/Users/Digital-Sqrt/Downloads/TLP182_datasheet_en_20170511.pdf" H 2775 2400 50  0001 L CNN
+F 4 "TLP182(BL-TPL,E" H 2775 2400 60  0001 C CNN "mfr_num"
+F 5 "Toshiba" H 2775 2400 60  0001 C CNN "Manufacture"
 F 6 "Digi-Key" H 2775 2400 60  0001 C CNN "Supplyer"
-F 7 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 2775 2400 60  0001 C CNN "Supplyer_Link"
-F 8 "PS2801C-1-A-ND" H 2775 2400 60  0001 C CNN "Supplyer_Part_No"
+F 7 "TLP182(BL-TPLECT-ND" H 2775 2400 60  0001 C CNN "Supplyer_Part_No"
+F 8 "http://www.digikey.com/product-search/en?keywords=PS2801C-1-A" H 2775 2400 60  0001 C CNN "Supplyer_Link"
+F 9 "Toshiba" H 2775 2400 60  0001 C CNN "Manufacturer"
 	1    2775 2400
 	1    0    0    -1  
 $EndComp
